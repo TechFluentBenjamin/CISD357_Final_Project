@@ -3,8 +3,8 @@
     <Documents>
         <Document ID="AC58BF0A-5B02-4894-A652-44126004F905">
             <Title>Research Question 3 (RQ3)</Title>
-            <Text>Research Question 3 (RQ3): Is there a connection between rushing yards and player’s birth month? In other words, does the month the player was born in influence the total amount of distance the player ran through their career? To minimize data noise, only retired players will be analyzed for this question.
-Hypothesis 3 (H3): The team believes there is a week correlation between rushing yards and birth months for NFL players. There are multiple variables that affect a player’s rushing ability, including the birth location, or high school location elevation. Additionally, a player’s genetic makeup may influence oxygen saturation level (see, for example, Gibbens [2018] article on the Bajau’s people ability to stay underwater for up to 13 minutes without physical harm).
+            <Text>Research Question 3 (RQ3): Is there a connection between RBIs and player’s birth month? In other words, does the month the player was born in influence the total amount of RBIs in their career? To minimize data noise, only retired players will be analyzed for this question.
+Hypothesis 3 (H3): The team believes there is a weak correlation between RBIs and birth months for MLB players. There are multiple variables that affect a player’s ability to hit RBIs, including the birth location, or high school location elevation. Additionally, a player’s genetic makeup may influence oxygen saturation level (see, for example, Gibbens [2018] article on the Bajau’s people ability to stay underwater for up to 13 minutes without physical harm).
 </Text>
         </Document>
         <Document ID="7432931F-6F39-463F-A4B7-A9C9C511BF7C">
@@ -15,32 +15,31 @@ Hypothesis 3 (H3): The team believes there is a week correlation between rushing
         </Document>
         <Document ID="56216B66-EF47-4A40-BD7D-84DA82D422E7">
             <Title>References</Title>
-            <Text>Bank of America Institute. 2026. “On the Ball: How Football Fuels Local Spending.” https://institute.bankofamerica.com/content/dam/economic-insights/football-economics-local-spending-impact.pdf.
-Beilby, J. 2026. “Is Football Declining in Popularity? New Poll Reveals Competition.” https://www.usatoday.com/story/sports/nfl/2026/09/17/most-popular-sports-america-football-gallup-2026/91766661007/.
-California State University, Sacramento. 2026. “The NFL’s GDP: How Football Drives the U.S. Economy.” https://cmorales.sacsites.csus.edu/the-nfl-s-gdp-how-football-drives-the-u-s-economy.html.
+            <Text>Bradbury, J.C. 2022. “Does Hosting a Professional Sports Team Benefit the Local Community? Evidence from Property Assessments.” Economics of Governance 22(3). doi:10.1007/s10101-022-00268-z.
 Gibbens, S. 2018. “‘Sea Nomads’ Are First Known Humans Genetically Adapted to Diving.” National Geographic (5).
-Worden, R. 2026. “The Projective Wave Theory of Consciousness.” Frontal Psychology. doi:10.3389/fpsyg.2026.1674983.
+Levin, A. 2024. “Can Sports Drive Economic Development?” https://www.congress.gov/crs-product/IF12571.
+ 
 </Text>
         </Document>
         <Document ID="230D4C0A-4139-46B5-9F1C-5384BD0F03A7">
             <Title>Section 4: Research Questions &amp; Hypotheses</Title>
-            <Text>Using the acquired data sources, the team proposes four questions to investigate. The team understands only two questions are required for the assignment, however by offering the professor four potential questions will allow the professor to narrow the team’s scope, and will be a contingency if the proposed questions do not meet the assignment’s criteria. 
+            <Text>Using the identified data sources, the team proposes four questions to investigate. The team understands only two questions are required for the assignment, however by offering multiple questions will allow the professor to narrow the team’s scope, and will be a contingency if any of the proposed questions do not meet the assignment’s criteria. 
 Because of data noise, the team expects a slight correlation caused by data randomness. This paper will use the following values for statistical conclusions:
-&lt; 0% to 5% = statically insignificant
- 5% to 10% = weak correlation
+0% to 5% = statically insignificant
+&gt;5% to 10% = weak correlation
 &gt;10% = strong correlation.
 </Text>
         </Document>
         <Document ID="C204EF16-57ED-4B83-A3D9-5EFC9B7FB0BD">
             <Title>Research Question 1 (RQ1)</Title>
-            <Text>Research Question 1 (RQ1): Is there a connection between a full moon and touchdowns? In other words, games that are played during a full moon, will the number of touchdowns increase compared to games that are played when the moon is not full?
-Hypothesis 1 (H1): The team believes there is no connection between a full moon and touchdowns. It seems highly unlikely that the moon phase will impact the length of how far the football is thrown due to the moon’s gravitational influence.
+            <Text>Research Question 1 (RQ1): Is there a connection between the salary of players to the number of runs batted in (“RBI”) for 2024? 
+Hypothesis 1 (H1): The team believes there is a strong correlation between the salaries of players to the numbers of runs batted in for 2024. The reason is because scoring is very important to baseball, and the more RBIs a player can produce on average, the greater they should be paid.
 </Text>
         </Document>
         <Document ID="E70B20C2-84F6-4620-86BC-D6F83164EB2A">
             <Title>Research Question 2 (RQ2)</Title>
-            <Text>Research Question 2 (RQ2): Is there a correlation between the number of people attending the game in person and the points scored by the home team?
-Hypothesis 2 (H2): The team believes there is a weak correlation between these two data points. There are multiple factors that may influence the points scored by the home NFL team, including wind speed, elevation, and player availability due to injury.
+            <Text>Research Question 2 (RQ2): Has the statistical relationship between a player’s height and their defensive position changed over the last 100 years? 
+Hypothesis 2 (H2): The team believes there is a strong likelihood that a player’s height and the defensive position played has changed within the last 100 years. The variables causing this change is because of increased knowledge of general and sports medical care, increase supply of food to young children, resulting in children growing up taller, and a realization by baseball managers that certain positions are played better by players of certain heights.
 </Text>
         </Document>
         <Document ID="60F2DB76-0DF8-4A1F-8103-AD658DFB7F2E">
@@ -126,23 +125,25 @@ Sernag vo velar, arul re rintax ma su, la ux harle jince tharn morvit yiphras xu
         </Document>
         <Document ID="059ADCAD-9DB3-40F4-9685-9E4FC789D620">
             <Title>Title Page</Title>
-            <Text>Quantified Analysis of Past National Football League Data: An Exploration of Correlation of Multiple Data Points in Python
+            <Text>Quantified Analysis of Past Major League Baseball Data: An Exploration of Data in Python
 (Milestone 1)
-
+ 
 Tristen Garcia
 Benjamin Hays
 Sacramento City College
 CISD/CISP 357: Introduction to Data Science
 Dr. Marc Fisher 
-[Date TBD]</Text>
+[Date TBD]
+
+</Text>
         </Document>
         <Document ID="66483712-2A86-4B6B-9DC2-F67407B00481">
             <Title>Results</Title>
         </Document>
         <Document ID="B06E5F14-5958-4D2C-811B-E94CC56D5EBC">
             <Title>Section 2: Topic Introduction and Domain Context</Title>
-            <Text>American football is extremely popular in the United States, with over 33% of all Americans stating American football is their favorite sport (Beliby 2026). In 2024, the NFL added approximately $29 to $32 billion dollars to the United States economy (California State University, Sacramento 2026).  At the local level, NFL teams increase local spending by up to 100% on game day (Bank of America Institute 2026).  Clearly, as the NFL goes, so goes America.
-Given the impact of NFL to the local economy, it is important for both teams and the local government to encourage good NFL governance. The data explored in this paper is vital for NFL teams to decide which players would thrive within the NFL system, the local government who implement fiscal policies to encourage NFL teams to relocate or stay within their jurisdiction, and potential investigations by boffins to identify the underlaying correlation triggers identified in this investigation. Secondary groups impacted by this study includes city planners, architects, and economics who may set financial policy or develop the relevant mathematical models.
+            <Text>It is common knowledge that American baseball is America’s pastime. In 2024, the MLB added approximately $10 billion dollars to the United States economy (Levin 2024). At the local level, MLB teams increase local property value, resulting in a higher demand for the surrounding property (Bradbury 2022).  Clearly, as the MLB goes, so goes America.
+Given the impact of MLB to the local economy, it is important for both teams and the local government to encourage good MLB governance. The data explored in this paper is vital for MLB teams to decide which players would thrive within the MLB system, the local government who implement fiscal policies to encourage MLB teams to relocate or stay within their jurisdiction, and potential investigations by boffins to identify the underlaying triggers identified in this investigation. Secondary groups impacted by this study includes city planners, health scientists, and economics who may set financial policy or develop the relevant mathematical models.
 </Text>
         </Document>
         <Document ID="A16E8D75-0D44-4F8B-BE37-0DC45C3BE6DB">
@@ -236,8 +237,7 @@ Special thanks to Michael Shulman for advising on the updates to Edition 7 forma
         </Document>
         <Document ID="C8EE119C-C799-4034-A07A-51D018D31E02">
             <Title>Section 3: Data Source Specification &amp; Metadata</Title>
-            <Text>We propose to use the following sources for our data. These sources are from publicly available information which can be accessed as a .cvs file or from a public API. The specific sources are identified in Table 2.
-[insert data sources here]
+            <Text>The team propose to use the following sources for our data. These sources are from publicly available information which can be accessed as a .cvs file from the main website, https://sabr.org/lahman-database/. The specific databases for this project are identified in Table 2.
 </Text>
         </Document>
         <Document ID="D3787E39-8556-4907-8040-34A5BE47A7BC">
@@ -245,36 +245,12 @@ Special thanks to Michael Shulman for advising on the updates to Edition 7 forma
         </Document>
         <Document ID="A3FED7FF-E567-49C0-9C49-D2CBCBB79366">
             <Title>Section 1: Team Identification and Task Allocation Plan</Title>
-            <Text>The project team is interested in investigating the National Football League (“NFL”) historical data for trends and analysis to identify if there is any correlation between multiple historical datapoints. This information can be used for further exploration by the relevant subject matter experts. 
-The team believe the following project title aligns closely with the study’s purpose:
+            <Text>The project team is interested in investigating the Major League Baseball (“MLB”) historical data for trends and analysis to identify correlation between multiple historical datapoints. This information can be used for further exploration by the relevant subject matter experts. 
+The team believes the following project title aligns closely with the study’s purpose:
  
-Project Title: Quantified Analysis of Past National Football League Data: An Exploration of Correlation of Multiple Data Points in Python
+Project Title: Quantified Analysis of Past Major League Baseball Data: An Exploration of Data in Python
  
-An assignment agreement was created, identifying each member’s responsibility to generate the identified deliverable. This does not mean each team member works in isolation, but only the tasks they are responsible for performing. Each team member is expected to reach out to the appropriate individuals as needed, either independently or as a team. See Table 1 for the agreed upon responsibility matrix. 
-
-
-Table 1
- 
-Assignment Responsibility Matrix 
-Student Name
-Responsibility
-Tristan Garcia
-·      Collect appropriate data sources
-·      Script Cleaning Code
-·      Calculations Code
-·      Report Reviewer 
-Benjamin Hays
-·      Managing GitHub (https://github.com/TechFluentBenjamin/CISD357_Final_Project)
-·      Data Refining Proposal/ Requirements
-·      Calculations Ideas/ flow
-·      Report Writer
-Both
-·      User Interface Design
-·      Chart Design 
-·      Chart Code
-Note. The following individuals can be contacted for information and consulting on an ad-hoc basis:
-·      “Jim” Python tutor at Sacramento City College
-·      Professor Fishman
+An assignment agreement was created, identifying each member’s responsibility to generate the identified deliverables. This does not mean each team member works in isolation, but only the tasks they are responsible for performing. Each team member is expected to reach out to the appropriate individuals as needed, either independently or as a team. See Table 1 for the agreed upon responsibility matrix.
 </Text>
         </Document>
         <Document ID="5075D4ED-BA3C-4CC2-8689-E26BA317CC2E">
@@ -282,7 +258,7 @@ Note. The following individuals can be contacted for information and consulting 
         </Document>
         <Document ID="B78095E0-C090-4643-B128-37E56514F286">
             <Title>Section 5: Small Data Subset Strategy</Title>
-            <Text>The team proposes the following steps to extract and analyze the data for completeness. The appropriate expected data will be identified for each column, such as date written in month/date/year format, string, or integer. Multiple .cvs files or databases will be merged using a left union, with the “date” being the primary key connecting the files together, and any missing data will be replaced with the appropriate symbol or word for “missing data”. The first 100 rows of the merged document will be extracted using the relevant Python code. From that 100 rows, multiple checks will be performed on the data, such as confirming all rows meet the expected data format, data in missing rows automatically converted, and related actions performed.
+            <Text>The team proposes the following steps to extract and analyze the data for completeness. The appropriate expected data will be identified for each column, such as date written in month/date/year format, string, or integer. Multiple .cvs files or databases will be merged using a left union, with the “playerID” being the primary key connecting the files together, and any missing data will be replaced with the appropriate symbol or word for “missing data”. The first 100 rows of the merged document will be extracted using the relevant Python code. From that 100 rows, multiple checks will be performed on the data, such as confirming all rows meet the expected data format, data in missing rows automatically converted, and related actions performed.
 A testing function will be developed using the Python unittest framework to confirm all extracted rows meet the required data expectations. This will provide feedback to the team to adjust the program code as needed.
 </Text>
         </Document>
@@ -339,15 +315,14 @@ Delete the “Author Note” and following text if you do not need it.</Notes>
         </Document>
         <Document ID="0C26E4F7-8423-45FD-89D3-238135DF35EC">
             <Title>Section 6: Calibrated Analytical Scope &amp; Planned Visualizations</Title>
-            <Text>The team expects to use the following statistical metrics and visualization types for each research question. The team expects only two out of four of the following research questions to be approved. See Table 3 for specifications. 
-[insert chart here]
+            <Text>The team expects to use the following statistical metrics and visualization types for each research question. The team expects only two out of four of the following research questions to be approved. See Table 3 for specifications.
 
 </Text>
         </Document>
         <Document ID="A5792672-83F0-43FD-9CED-7DB2CADF120B">
             <Title>Research Question 4 (RQ4)</Title>
-            <Text>Research Question 4 (RQ4): Is there a connection between the total amount of television viewers of an NFL game and total points scored?
-Hypothesis 4 (H4): According to the Antenna Hypothesis of Consciousness, the brain wave length frequency can pick up various “realities” based on a certain “frequency” the brain can be tuned into, and the brain is able to exchange information among other brains as the waves move through a type of unexplored matter (Worden 2026). Therefore, viewers are able to “will” their team to score, resulting in a “dueling battle” between teams, resulting in a higher score for the teams with the most viewers. The team believes there is no connection between television viewers and sum of the total points scored between two teams, and the Antenna Hypothesis of Consciousness is of questionable scientific value. 
+            <Text>Research Question 4 (RQ4): Is there a connection between the college type (i.e. Division 1 college, Division 2 college, etc.) the player attended, if any, and the number of seasons they play?
+Hypothesis 4 (H4): There is a connection between the colleges they play and number of the seasons of a player. Different colleges impact different quality of baseball knowledge on potential baseball players, and therefore there is a connection between the college a player attends and the number of seasons they play.
 </Text>
         </Document>
         <Document ID="EFE4B5C5-F2EE-461E-A960-25F66B09BCF2">

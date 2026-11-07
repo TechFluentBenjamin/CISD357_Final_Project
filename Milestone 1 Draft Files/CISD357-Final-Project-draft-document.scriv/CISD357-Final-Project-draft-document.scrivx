@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="B2EFF715-B878-4294-9FEB-BAF60FB57E7D" Version="2.0" Creator="SCRMAC-3.5.2-17487" Device="MacBook-Pro" Author="" Modified="2026-11-04 20:42:28 -0800" ModID="1AF1DCCD-7C8A-4465-AC97-CE30DB24BB4B">
+<ScrivenerProject Identifier="B2EFF715-B878-4294-9FEB-BAF60FB57E7D" Version="2.0" Creator="SCRMAC-3.5.2-17487" Device="MacBook-Pro" Author="" Modified="2026-11-06 16:53:58 -0800" ModID="7D2A518A-4E13-4721-AA10-F8E25922DEB7">
     <Binder>
         <BinderItem UUID="62FE5B5B-966F-42D3-8EEF-90B64069337C" Type="Text" Created="2026-11-04 16:11:16 -0800" Modified="2026-11-04 16:11:16 -0800">
             <Title>About</Title>
@@ -24,51 +24,51 @@
                 </OutlinerExpandedState>
             </CorkboardAndOutliner>
             <Children>
-                <BinderItem UUID="059ADCAD-9DB3-40F4-9685-9E4FC789D620" Type="Text" Created="2026-11-04 16:12:57 -0800" Modified="2026-11-04 16:16:53 -0800">
+                <BinderItem UUID="059ADCAD-9DB3-40F4-9685-9E4FC789D620" Type="Text" Created="2026-11-04 16:12:57 -0800" Modified="2026-11-06 16:52:20 -0800">
                     <Title>Title Page</Title>
                     <MetaData>
                         <SectionType>A6236670-1A67-4E91-816E-0B5EC16FE320</SectionType>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>152,0</TextSelection>
+                        <TextSelection>231,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="A3FED7FF-E567-49C0-9C49-D2CBCBB79366" Type="Text" Created="2026-11-04 16:11:16 -0800" Modified="2026-11-04 20:24:49 -0800">
+                <BinderItem UUID="A3FED7FF-E567-49C0-9C49-D2CBCBB79366" Type="Text" Created="2026-11-04 16:11:16 -0800" Modified="2026-11-06 16:52:31 -0800">
                     <Title>Section 1: Team Identification and Task Allocation Plan</Title>
                     <MetaData>
                         <SectionType>A883104D-1816-433D-B90A-4BD2C6D77E24</SectionType>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>1584,0</TextSelection>
+                        <TextSelection>880,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="B06E5F14-5958-4D2C-811B-E94CC56D5EBC" Type="Text" Created="2026-11-04 16:24:22 -0800" Modified="2026-11-04 20:18:51 -0800">
+                <BinderItem UUID="B06E5F14-5958-4D2C-811B-E94CC56D5EBC" Type="Text" Created="2026-11-04 16:24:22 -0800" Modified="2026-11-06 16:52:41 -0800">
                     <Title>Section 2: Topic Introduction and Domain Context</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>1116,0</TextSelection>
+                        <TextSelection>1002,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="C8EE119C-C799-4034-A07A-51D018D31E02" Type="Text" Created="2026-11-04 16:43:28 -0800" Modified="2026-11-04 20:18:33 -0800">
+                <BinderItem UUID="C8EE119C-C799-4034-A07A-51D018D31E02" Type="Text" Created="2026-11-04 16:43:28 -0800" Modified="2026-11-06 16:52:49 -0800">
                     <Title>Section 3: Data Source Specification &amp; Metadata</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>242,0</TextSelection>
+                        <TextSelection>276,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="230D4C0A-4139-46B5-9F1C-5384BD0F03A7" Type="Text" Created="2026-11-04 16:45:20 -0800" Modified="2026-11-04 20:18:22 -0800">
+                <BinderItem UUID="230D4C0A-4139-46B5-9F1C-5384BD0F03A7" Type="Text" Created="2026-11-04 16:45:20 -0800" Modified="2026-11-06 16:53:02 -0800">
                     <Title>Section 4: Research Questions &amp; Hypotheses</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>398,0</TextSelection>
+                        <TextSelection>599,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="473540E9-95F3-4565-9466-FCF29CA459D3" Type="Folder" Created="2026-11-04 16:47:23 -0800" Modified="2026-11-04 16:47:27 -0800">
@@ -80,74 +80,74 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="C204EF16-57ED-4B83-A3D9-5EFC9B7FB0BD" Type="Text" Created="2026-11-04 16:47:07 -0800" Modified="2026-11-04 20:17:20 -0800">
+                        <BinderItem UUID="C204EF16-57ED-4B83-A3D9-5EFC9B7FB0BD" Type="Text" Created="2026-11-04 16:47:07 -0800" Modified="2026-11-06 16:53:08 -0800">
                             <Title>Research Question 1 (RQ1)</Title>
                             <MetaData>
                                 <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>484,0</TextSelection>
+                                <TextSelection>417,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="E70B20C2-84F6-4620-86BC-D6F83164EB2A" Type="Text" Created="2026-11-04 16:49:50 -0800" Modified="2026-11-04 20:17:10 -0800">
+                        <BinderItem UUID="E70B20C2-84F6-4620-86BC-D6F83164EB2A" Type="Text" Created="2026-11-04 16:49:50 -0800" Modified="2026-11-06 16:53:22 -0800">
                             <Title>Research Question 2 (RQ2)</Title>
                             <MetaData>
                                 <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>402,0</TextSelection>
+                                <TextSelection>610,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="AC58BF0A-5B02-4894-A652-44126004F905" Type="Text" Created="2026-11-04 16:54:22 -0800" Modified="2026-11-04 20:16:56 -0800">
+                        <BinderItem UUID="AC58BF0A-5B02-4894-A652-44126004F905" Type="Text" Created="2026-11-04 16:54:22 -0800" Modified="2026-11-06 16:53:31 -0800">
                             <Title>Research Question 3 (RQ3)</Title>
                             <MetaData>
                                 <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>777,0</TextSelection>
+                                <TextSelection>739,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="A5792672-83F0-43FD-9CED-7DB2CADF120B" Type="Text" Created="2026-11-04 17:03:18 -0800" Modified="2026-11-04 20:16:18 -0800">
+                        <BinderItem UUID="A5792672-83F0-43FD-9CED-7DB2CADF120B" Type="Text" Created="2026-11-04 17:03:18 -0800" Modified="2026-11-06 16:53:39 -0800">
                             <Title>Research Question 4 (RQ4)</Title>
                             <MetaData>
                                 <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>756,0</TextSelection>
+                                <TextSelection>510,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="B78095E0-C090-4643-B128-37E56514F286" Type="Text" Created="2026-11-04 17:13:10 -0800" Modified="2026-11-04 20:42:27 -0800">
+                <BinderItem UUID="B78095E0-C090-4643-B128-37E56514F286" Type="Text" Created="2026-11-04 17:13:10 -0800" Modified="2026-11-06 16:53:48 -0800">
                     <Title>Section 5: Small Data Subset Strategy</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>747,0</TextSelection>
+                        <TextSelection>969,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="0C26E4F7-8423-45FD-89D3-238135DF35EC" Type="Text" Created="2026-11-04 17:20:02 -0800" Modified="2026-11-04 20:15:30 -0800">
+                <BinderItem UUID="0C26E4F7-8423-45FD-89D3-238135DF35EC" Type="Text" Created="2026-11-04 17:20:02 -0800" Modified="2026-11-06 16:53:53 -0800">
                     <Title>Section 6: Calibrated Analytical Scope &amp; Planned Visualizations</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>254,0</TextSelection>
+                        <TextSelection>233,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="56216B66-EF47-4A40-BD7D-84DA82D422E7" Type="Text" Created="2026-11-04 16:11:16 -0800" Modified="2026-11-04 20:14:06 -0800">
+                <BinderItem UUID="56216B66-EF47-4A40-BD7D-84DA82D422E7" Type="Text" Created="2026-11-04 16:11:16 -0800" Modified="2026-11-06 16:53:58 -0800">
                     <Title>References</Title>
                     <MetaData>
                         <SectionType>B516FD6F-0C8A-4F14-BFC5-B10221D9CC60</SectionType>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>818,0</TextSelection>
+                        <TextSelection>408,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -361,10 +361,10 @@
         </BinderItem>
     </Binder>
     <Collections>
-        <Collection Type="Binder" ID="4C2F914B-7D10-4841-A6C9-435502CC55BF" Color="0.091141 0.091141 0.091141">
+        <Collection Type="Binder" ID="4C2F914B-7D10-4841-A6C9-435502CC55BF" Color="0.974804 0.974804 0.974804">
             <Title>Binder</Title>
         </Collection>
-        <Collection Type="RecentSearch" ID="ED9F42CB-8CEB-4870-9E2B-055AE0543F3E" Color="0.190666 0.172706 0.216531">
+        <Collection Type="RecentSearch" ID="ED9F42CB-8CEB-4870-9E2B-055AE0543F3E" Color="0.922173 0.818612 0.999627">
             <Title>Search Results</Title>
             <SearchSettings Operator="Any" Type="All" CaseSensitive="No" IgnoreDiacritics="No">{School</SearchSettings>
         </Collection>
@@ -435,12 +435,12 @@
     </StatusSettings>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="Yes" Deadline="2011-07-07 04:27:17 -0700" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2026-11-05 00:00:00 -0800" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="1089" Characters="7307" Date="2026-11-04 20:42:17 -0800"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2026-11-07 00:00:00 -0800" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="-178" Characters="-1485" Date="2026-11-06 16:08:54 -0800"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2026-11-04 16:11:16 -0800">
-        <DraftWordCount>1089</DraftWordCount>
-        <DraftCharCount>7307</DraftCharCount>
+    <RecentWritingHistory Date="2026-11-06 00:00:00 -0800">
+        <DraftWordCount>-178</DraftWordCount>
+        <DraftCharCount>-1485</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>

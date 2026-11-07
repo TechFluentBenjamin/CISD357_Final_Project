@@ -10,7 +10,7 @@
 		</array>
 	</dict>
 	<key>CompileFolder</key>
-	<string>/Users/benjaminhays/Documents/School/Fall 2026/CISD 357 - Introduction to Programming/Final Project</string>
+	<string>/Users/benjaminhays/Documents/School/Fall 2026/CISD 357 - Introduction to Programming/Final Project/Milestone 1 Draft Files</string>
 	<key>MainWindowShowsFormatBar</key>
 	<true/>
 	<key>NotesScaleFactor</key>
@@ -323,7 +323,7 @@
 		<real>573.5</real>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {604, 290}}</string>
+	<string>{{-1, 0}, {621, 290}}</string>
 	<key>mainDocumentEditor.selectedRanges</key>
 	<string>{0, 0}</string>
 	<key>mainDocumentEditor.textEditorState</key>
@@ -388,7 +388,7 @@
 	<key>supportingDocumentEditor.interCardSpacing</key>
 	<real>30</real>
 	<key>supportingDocumentEditor.scrollRect</key>
-	<string>{{-36, 0}, {692, 440}}</string>
+	<string>{{-45, 0}, {709, 440}}</string>
 	<key>supportingDocumentEditor.selectedItemIDs</key>
 	<array/>
 	<key>supportingDocumentEditor.selectedItemUUIDs</key>

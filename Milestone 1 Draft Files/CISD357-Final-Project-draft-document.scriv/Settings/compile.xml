@@ -47,8 +47,8 @@
             </Ebook>
         </Options>
         <MetaData>
-            <ProjectTitle>Quantified Analysis of Past National Football League Data: An Exploration of Correlation of Multiple Data Points in Python</ProjectTitle>
-            <ProjectAbbreviatedTitle>Quantified Analysis of Past National Football Leag</ProjectAbbreviatedTitle>
+            <ProjectTitle>Quantified Analysis of Past Major League Baseball Data: An Exploration of Correlation of Multiple Data Points in Python</ProjectTitle>
+            <ProjectAbbreviatedTitle>QUANTIFIED ANALYSIS OF PAST MAJOR LEAGUE BASEBALL</ProjectAbbreviatedTitle>
             <Authors>
                 <Author>Benjamin Hays, Tristen Garcia</Author>
             </Authors>
@@ -112,7 +112,8 @@
     </FormatSettings>
     <LastUsedFormats>
         <Print>077F8976-45C2-4C1E-A5A7-E0D6FE669004</Print>
-        <docx>077F8976-45C2-4C1E-A5A7-E0D6FE669004</docx>
         <rtf>apa-format</rtf>
+        <doc>077F8976-45C2-4C1E-A5A7-E0D6FE669004</doc>
+        <docx>077F8976-45C2-4C1E-A5A7-E0D6FE669004</docx>
     </LastUsedFormats>
 </CompileSettings>

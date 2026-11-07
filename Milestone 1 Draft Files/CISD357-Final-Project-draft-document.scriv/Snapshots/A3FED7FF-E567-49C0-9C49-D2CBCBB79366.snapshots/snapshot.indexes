@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="A3FED7FF-E567-49C0-9C49-D2CBCBB79366">
+    <Snapshot Date="2026-11-06 16:09:52 -0800">
+        <Title>Untitled Snapshot</Title>
+        <Text>The project team is interested in investigating the National Football League (“NFL”) historical data for trends and analysis to identify if there is any correlation between multiple historical datapoints. This information can be used for further exploration by the relevant subject matter experts. 
+The team believe the following project title aligns closely with the study’s purpose:
+ 
+Project Title: Quantified Analysis of Past National Football League Data: An Exploration of Correlation of Multiple Data Points in Python
+ 
+An assignment agreement was created, identifying each member’s responsibility to generate the identified deliverable. This does not mean each team member works in isolation, but only the tasks they are responsible for performing. Each team member is expected to reach out to the appropriate individuals as needed, either independently or as a team. See Table 1 for the agreed upon responsibility matrix. 
+
+
+Table 1
+ 
+Assignment Responsibility Matrix 
+Student Name
+Responsibility
+Tristan Garcia
+·      Collect appropriate data sources
+·      Script Cleaning Code
+·      Calculations Code
+·      Report Reviewer 
+Benjamin Hays
+·      Managing GitHub (https://github.com/TechFluentBenjamin/CISD357_Final_Project)
+·      Data Refining Proposal/ Requirements
+·      Calculations Ideas/ flow
+·      Report Writer
+Both
+·      User Interface Design
+·      Chart Design 
+·      Chart Code
+Note. The following individuals can be contacted for information and consulting on an ad-hoc basis:
+·      “Jim” Python tutor at Sacramento City College
+·      Professor Fishman
+</Text>
+    </Snapshot>
+</SnapshotIndexes>
