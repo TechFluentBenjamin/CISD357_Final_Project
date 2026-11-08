@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="B78095E0-C090-4643-B128-37E56514F286">
+    <Snapshot Date="2026-11-06 16:25:23 -0800">
+        <Title>Untitled Snapshot</Title>
+        <Text>The team proposes the following steps to extract and analyze the data for completeness. The appropriate expected data will be identified for each column, such as date written in month/date/year format, string, or integer. Multiple .cvs files or databases will be merged using a left union, with the “date” being the primary key connecting the files together, and any missing data will be replaced with the appropriate symbol or word for “missing data”. The first 100 rows of the merged document will be extracted using the relevant Python code. From that 100 rows, multiple checks will be performed on the data, such as confirming all rows meet the expected data format, data in missing rows automatically converted, and related actions performed.
+A testing function will be developed using the Python unittest framework to confirm all extracted rows meet the required data expectations. This will provide feedback to the team to adjust the program code as needed.
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

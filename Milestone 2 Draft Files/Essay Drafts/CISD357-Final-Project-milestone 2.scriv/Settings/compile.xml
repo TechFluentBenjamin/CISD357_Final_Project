@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompileSettings>
+    <ProjectSettings>
+        <Content Scope="Included">
+            <Filter State="Off" Exclude="No" Type="Label">
+                <CollectionID>ED9F42CB-8CEB-4870-9E2B-055AE0543F3E</CollectionID>
+                <Label>-1</Label>
+                <Status>-1</Status>
+            </Filter>
+        </Content>
+        <Options>
+            <RemoveFootnotes>Yes</RemoveFootnotes>
+            <RemoveComments>Yes</RemoveComments>
+            <RemoveAnnotations>Yes</RemoveAnnotations>
+            <InlineFootnotesAsEndnotes>Yes</InlineFootnotesAsEndnotes>
+            <LinkedFootnotesAsEndnotes>Yes</LinkedFootnotesAsEndnotes>
+            <ResampleImages DPI="72">No</ResampleImages>
+            <RemoveTextColor>Yes</RemoveTextColor>
+            <RemoveHyperlinks>Yes</RemoveHyperlinks>
+            <RemoveTrailingWhitespace>Yes</RemoveTrailingWhitespace>
+            <ConvertTablesAndListToMMD>Yes</ConvertTablesAndListToMMD>
+            <PDF>
+                <Cover Bleed="9.0" BleedUnits="pt"/>
+                <Compression Enabled="No">
+                    <ImageResolutionCompressionType>Set</ImageResolutionCompressionType>
+                    <ImageResolution>150</ImageResolution>
+                    <CompressionQuality>0.5</CompressionQuality>
+                </Compression>
+            </PDF>
+            <Scriptwriting>
+                <IncludeTitles>Yes</IncludeTitles>
+                <IncludeSynopses>Yes</IncludeSynopses>
+                <CommentsAsScriptNotes>Yes</CommentsAsScriptNotes>
+            </Scriptwriting>
+            <Ebook>
+                <StartAfterFrontMatter>Yes</StartAfterFrontMatter>
+                <Cover>
+                    <ImageDocument Source="FrontMatter"/>
+                    <Title>Cover</Title>
+                    <SVG Width="600" Height="800"><![CDATA[]]></SVG>
+                </Cover>
+                <TOC PandocDepth="3">
+                    <HTML Generate="Yes">
+                        <Title>Contents</Title>
+                    </HTML>
+                </TOC>
+            </Ebook>
+        </Options>
+        <MetaData>
+            <ProjectTitle>Quantified Analysis of Past Major League Baseball Data: An Exploration of Correlation of Multiple Data Points in Python</ProjectTitle>
+            <ProjectAbbreviatedTitle>QUANTIFIED ANALYSIS OF PAST MAJOR LEAGUE BASEBALL</ProjectAbbreviatedTitle>
+            <Authors>
+                <Author>Benjamin Hays, Tristen Garcia</Author>
+            </Authors>
+            <EbookLanguage>en</EbookLanguage>
+            <FountainTitlePageMetaData>
+                <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
+                <Value Key="Author"><![CDATA[<$author>]]></Value>
+            </FountainTitlePageMetaData>
+        </MetaData>
+    </ProjectSettings>
+    <CurrentFileType>docx</CurrentFileType>
+    <FormatSettings>
+        <Format ID="077F8976-45C2-4C1E-A5A7-E0D6FE669004">
+            <SectionLayouts>
+                <Type ID="891199B1-4E9A-4759-98D0-1CEF217658CF">DB9F2FA7-8D4B-4BBC-9440-DF3EC2B2AB95</Type>
+                <Type ID="A883104D-1816-433D-B90A-4BD2C6D77E24">TEXT-SECTION</Type>
+                <Type ID="17062F3B-7533-4E2C-ACA8-0C235FDA939C">7CE63A7B-1B9A-4D0D-815B-9398A7299B22</Type>
+                <Type ID="52756C26-D1AE-4EA3-A030-F249ED758C1A">D2979B7B-7E63-4CF7-8120-C59F6D045F0E</Type>
+                <Type ID="28E6ABEB-7EE7-4B72-854E-E0D30FAEACCD">12503CB6-9E06-4A3E-AFB1-71EFDC44EF23</Type>
+                <Type ID="F18F0C9C-9069-4DE9-9608-5DBBDCA46E06">BD09B518-A00D-43BF-826E-5FA54917885D</Type>
+                <Type ID="A6236670-1A67-4E91-816E-0B5EC16FE320">E5F7D4A0-F24D-4AC5-927F-8872CEBE6286</Type>
+                <Type ID="B490852A-D17E-421E-919B-DAF661BCE021">E7E271E1-0234-4B08-B795-C2F76F01D0E8</Type>
+                <Type ID="FB9C8F9C-D9C1-4EDC-B971-D3AB470FE265">D6A19FB2-F727-4D14-9FBC-447ADE87506F</Type>
+                <Type ID="B516FD6F-0C8A-4F14-BFC5-B10221D9CC60">F09E91C5-2FAA-4EDB-A8CD-8E54D1CB3CDF</Type>
+                <Type ID="295E07FE-256E-459E-A4AD-913F8C9F107B">C1799F0B-C71F-4892-BD81-36C0F6DC3218</Type>
+                <Type ID="FE626F52-1C34-4D70-96CE-4C0562873021">5EAE2DD8-4390-49F7-867F-CBA8BD204EBC</Type>
+            </SectionLayouts>
+            <FrontAndBackMatter>
+                <DefaultFrontMatter Add="Yes">3483F454-0D9F-4FBF-81D0-806BEF81F3E2</DefaultFrontMatter>
+                <PerFileTypeSettings>
+                    <Print>
+                        <Front Lock="Yes">3483F454-0D9F-4FBF-81D0-806BEF81F3E2</Front>
+                    </Print>
+                </PerFileTypeSettings>
+            </FrontAndBackMatter>
+        </Format>
+        <Format ID="apa-format">
+            <SectionLayouts>
+                <Type ID="891199B1-4E9A-4759-98D0-1CEF217658CF">DB9F2FA7-8D4B-4BBC-9440-DF3EC2B2AB95</Type>
+                <Type ID="A883104D-1816-433D-B90A-4BD2C6D77E24">TEXT-SECTION</Type>
+                <Type ID="17062F3B-7533-4E2C-ACA8-0C235FDA939C">7CE63A7B-1B9A-4D0D-815B-9398A7299B22</Type>
+                <Type ID="52756C26-D1AE-4EA3-A030-F249ED758C1A">D2979B7B-7E63-4CF7-8120-C59F6D045F0E</Type>
+                <Type ID="28E6ABEB-7EE7-4B72-854E-E0D30FAEACCD">12503CB6-9E06-4A3E-AFB1-71EFDC44EF23</Type>
+                <Type ID="F18F0C9C-9069-4DE9-9608-5DBBDCA46E06">BD09B518-A00D-43BF-826E-5FA54917885D</Type>
+                <Type ID="A6236670-1A67-4E91-816E-0B5EC16FE320">E5F7D4A0-F24D-4AC5-927F-8872CEBE6286</Type>
+                <Type ID="B490852A-D17E-421E-919B-DAF661BCE021">E7E271E1-0234-4B08-B795-C2F76F01D0E8</Type>
+                <Type ID="FB9C8F9C-D9C1-4EDC-B971-D3AB470FE265">D6A19FB2-F727-4D14-9FBC-447ADE87506F</Type>
+                <Type ID="B516FD6F-0C8A-4F14-BFC5-B10221D9CC60">F09E91C5-2FAA-4EDB-A8CD-8E54D1CB3CDF</Type>
+                <Type ID="295E07FE-256E-459E-A4AD-913F8C9F107B">C1799F0B-C71F-4892-BD81-36C0F6DC3218</Type>
+                <Type ID="FE626F52-1C34-4D70-96CE-4C0562873021">5EAE2DD8-4390-49F7-867F-CBA8BD204EBC</Type>
+            </SectionLayouts>
+            <FrontAndBackMatter>
+                <DefaultFrontMatter Add="Yes">D9001E21-5F03-43CE-AAD4-16A29F011088</DefaultFrontMatter>
+                <PerFileTypeSettings>
+                    <Print>
+                        <Front Add="Yes" Lock="Yes">D9001E21-5F03-43CE-AAD4-16A29F011088</Front>
+                    </Print>
+                </PerFileTypeSettings>
+            </FrontAndBackMatter>
+        </Format>
+    </FormatSettings>
+    <LastUsedFormats>
+        <Print>077F8976-45C2-4C1E-A5A7-E0D6FE669004</Print>
+        <rtf>apa-format</rtf>
+        <doc>077F8976-45C2-4C1E-A5A7-E0D6FE669004</doc>
+        <docx>077F8976-45C2-4C1E-A5A7-E0D6FE669004</docx>
+    </LastUsedFormats>
+</CompileSettings>
