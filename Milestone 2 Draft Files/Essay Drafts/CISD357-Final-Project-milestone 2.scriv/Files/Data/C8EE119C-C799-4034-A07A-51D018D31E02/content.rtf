@@ -6,5 +6,13 @@
 \pard\pardeftab720\fi960\sl640\partightenfactor0
 
 \f0\fs32 \cf2 \expnd0\expndtw0\kerning0
-A data cleaning pipeline process was implemented to clean the data. Data cleaning is vital to remove information that is not required for the project, to remove duplicate columns, to change the column headers to be descriptive, and to confirm row information is formatted correctly. See Table X for the specific details of this process for this assignment\
+The next phase of the data wrangling process is to clean the data. A data cleaning pipeline process was implemented to clean the data. Data cleaning is vital to remove information that is not required for the project, to remove duplicate columns, to change the column headers to be descriptive, and to confirm row information is formatted correctly. \
+The first data cleaning step is to rename all columns using  lowercase. Data cleaning standards dictate that column names are lowercase before analysis, not unlike the PEP 8 python coding standard [should a source be used here?]. This was done using the python program [program name here].\
+The second step in the cleaning process is to remove all columns that are not needed for analysis in this program. All of the approved data sets contain data that is not required to answer the proposed questions. The team decided to drop the columns identified in Table XX, to minimize the risk of data errors.\
+The third step is to [to complete when we acquire information on which questions to investigate. \
+The information in the database is extensive, dating back over 120 years. Unsurprisingly, there is incomplete or missing information. For missing information, the team elected to [insert information here]. The team elected to do this because [insert information here].\
+Outliers are to be expected in a database. Outliers can either be caused by an entry that is above the expected standard deviation due to a specific trait of that entry, or errors caused by entry. The team elected to [do something here. Only accept entries within 99% SD? A number cut off? Something else?]\
+A database is a collection of data, and it is expected that the type of data in each column is uniform throughout all entries. Given the number of rows in the database, it is expected that data is not uniform. The team implemented the code, found in [file name here], to automatically convert all entries of [column name] into the data type of [data type here]. This is required for analysis, it is common knowledge that Python can not, for example, perform mathematical actions on a tuple with a string and an integer value [Rewrite!!].  \
+\
+See Table X for the specific details of this process for this assignment\
 [Insert Table X here]}
