@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="B2EFF715-B878-4294-9FEB-BAF60FB57E7D" Version="2.0" Creator="SCRMAC-3.5.2-17487" Device="MacBook-Pro" Author="" Modified="2026-11-08 16:53:12 -0800" ModID="7122DB99-605A-4A77-B1C8-BBBDA60990D3">
+<ScrivenerProject Identifier="B2EFF715-B878-4294-9FEB-BAF60FB57E7D" Version="2.0" Creator="SCRMAC-3.5.2-17487" Device="MacBook-Pro" Author="" Modified="2026-11-16 12:38:27 -0800" ModID="12E51518-7651-4985-9D62-267752F03900">
     <Binder>
         <BinderItem UUID="62FE5B5B-966F-42D3-8EEF-90B64069337C" Type="Text" Created="2026-11-04 16:11:16 -0800" Modified="2026-11-04 16:11:16 -0800">
             <Title>About</Title>
@@ -189,7 +189,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>750,0</TextSelection>
+                        <TextSelection>882,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="56216B66-EF47-4A40-BD7D-84DA82D422E7" Type="Text" Created="2026-11-04 16:11:16 -0800" Modified="2026-11-08 13:29:43 -0800">
@@ -231,6 +231,36 @@
             <TextSettings>
                 <TextSelection>0,0</TextSelection>
             </TextSettings>
+            <Children>
+                <BinderItem UUID="53B66ED7-763F-4A3C-BF24-AC4BC6544911" Type="PDF" Created="2026-11-16 12:37:53 -0800" Modified="2026-11-16 12:37:53 -0800">
+                    <Title>CISP 357 - Milestone 2 Progress Report Template</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>pdf</FileExtension>
+                    </MetaData>
+                    <MediaSettings>
+                        <CurrentPDFPage>4</CurrentPDFPage>
+                    </MediaSettings>
+                </BinderItem>
+                <BinderItem UUID="6ABACA60-43BA-4109-BFF3-E9CC4D80FF5D" Type="Text" Created="2026-11-16 12:36:03 -0800" Modified="2026-11-16 12:36:47 -0800">
+                    <Title>Module 2 requirements</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>6614,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="25C3803C-CC35-4CEA-B848-5FA898367D97" Type="Text" Created="2026-11-16 12:36:58 -0800" Modified="2026-11-16 12:37:02 -0800">
+                    <Title>Milestone 2 Template</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
         </BinderItem>
         <BinderItem UUID="C179F1A2-723D-4814-94F9-405DF9868E62" Type="Folder" Created="2026-11-04 16:11:16 -0800" Modified="2026-11-04 16:11:16 -0800">
             <Title>Ideas</Title>
@@ -515,14 +545,14 @@
     </StatusSettings>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="Yes" Deadline="2011-07-07 04:27:17 -0700" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2026-11-09 00:00:00 -0800" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="256" Characters="1385" Date="2026-11-08 13:22:57 -0800"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2026-11-17 00:00:00 -0800" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2026-11-16 12:35:52 -0800"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2026-11-08 00:00:00 -0800">
-        <DraftWordCount>256</DraftWordCount>
-        <DraftCharCount>1385</DraftCharCount>
-        <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>0</OtherCharCount>
+    <RecentWritingHistory Date="2026-11-16 00:00:00 -0800">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>871</OtherWordCount>
+        <OtherCharCount>6614</OtherCharCount>
     </RecentWritingHistory>
     <BookmarksFolderUUID>48A5DCAC-11AA-434A-8DE1-F5C293BE283A</BookmarksFolderUUID>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>

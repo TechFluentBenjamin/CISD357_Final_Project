@@ -137,6 +137,11 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>6ABACA60-43BA-4109-BFF3-E9CC4D80FF5D</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>7432931F-6F39-463F-A4B7-A9C9C511BF7C</key>
 		<dict>
 			<key>Row</key>
@@ -428,7 +433,7 @@
 	<key>supportingDocumentEditor.interCardSpacing</key>
 	<real>30</real>
 	<key>supportingDocumentEditor.scrollRect</key>
-	<string>{{-36, 0}, {692, 440}}</string>
+	<string>{{-45, 156.5}, {709, 440}}</string>
 	<key>supportingDocumentEditor.selectedItemIDs</key>
 	<array/>
 	<key>supportingDocumentEditor.selectedItemUUIDs</key>
