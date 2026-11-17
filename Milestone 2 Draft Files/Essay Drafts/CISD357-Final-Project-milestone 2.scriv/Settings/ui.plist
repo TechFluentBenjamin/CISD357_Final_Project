@@ -23,8 +23,8 @@
 	</array>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {237, 530}}</string>
-		<string>{{238, 0}, {709, 530}}</string>
+		<string>{{0, 0}, {237, 892}}</string>
+		<string>{{238, 0}, {1274, 892}}</string>
 	</array>
 	<key>binderState</key>
 	<array>
@@ -48,6 +48,11 @@
 			<integer>-1</integer>
 		</dict>
 		<key>230D4C0A-4139-46B5-9F1C-5384BD0F03A7</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>25C3803C-CC35-4CEA-B848-5FA898367D97</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -103,6 +108,11 @@
 			<integer>-1</integer>
 		</dict>
 		<key>5075D4ED-BA3C-4CC2-8689-E26BA317CC2E</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>53B66ED7-763F-4A3C-BF24-AC4BC6544911</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -368,7 +378,7 @@
 		<real>573.5</real>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {604, 290}}</string>
+	<string>{{-1, 0}, {621, 290}}</string>
 	<key>mainDocumentEditor.selectedRanges</key>
 	<string>{0, 0}</string>
 	<key>mainDocumentEditor.textEditorState</key>
@@ -379,7 +389,7 @@
 	<key>mainDocumentView</key>
 	<string>mainDocumentEditor</string>
 	<key>mainWindowFrame</key>
-	<string>0 137 947 558 0 0 1280 695 </string>
+	<string>0 220 1159 728 0 0 1512 948 </string>
 	<key>searchResultsTable</key>
 	<dict>
 		<key>order</key>
@@ -398,6 +408,8 @@
 	<true/>
 	<key>smartQuotes</key>
 	<true/>
+	<key>supportingDocumentEditor.PDFAutoScales</key>
+	<false/>
 	<key>supportingDocumentEditor.binderDocuments</key>
 	<array/>
 	<key>supportingDocumentEditor.cardWidth</key>
@@ -433,7 +445,7 @@
 	<key>supportingDocumentEditor.interCardSpacing</key>
 	<real>30</real>
 	<key>supportingDocumentEditor.scrollRect</key>
-	<string>{{-45, 156.5}, {709, 440}}</string>
+	<string>{{-327, 0}, {1274, 802}}</string>
 	<key>supportingDocumentEditor.selectedItemIDs</key>
 	<array/>
 	<key>supportingDocumentEditor.selectedItemUUIDs</key>

@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
-        <Document ID="D60898A2-F683-4FC4-81C7-1BE6B0C6ED9C">
-            <Title>Figure 1: Name here</Title>
-            <Text>Title: [Title name here]
-Target Research Question: [Research question here]
-Plot Type: [Plot type here]
-[insert figure]
-Narrative Interpretation:  [Write 1–2 paragraphs interpreting the. Discuss distribution shape, skewness, spread, or notable outlier peaks observed in the chart.] </Text>
+        <Document ID="7432931F-6F39-463F-A4B7-A9C9C511BF7C">
+            <Title>Measures</Title>
         </Document>
         <Document ID="E1163B1C-CF5E-4C4E-A2B6-B8B13DF883C8">
             <Title>Method</Title>
@@ -43,6 +38,362 @@ A visual pipeline draft has been developed to answer the questions. This method 
 The team proposes to develop the final report using the following structure. We believe this structure provides the best understanding for the data analyzed and review. This structure is [insert structure here. Pending on Professor for approval for questions].
 
 </Text>
+        </Document>
+        <Document ID="53B66ED7-763F-4A3C-BF24-AC4BC6544911">
+            <Title>CISP 357 - Milestone 2 Progress Report Template</Title>
+            <Text>CISP 357: Data Science Term Project
+Milestone 2 — Data Cleaning &amp; Exploration Progress
+Report Template
+Course: CISP 357 / CISD 357 — Introduction to Data Science
+Deliverable: Milestone 2 — Data Cleaning &amp; Exploration Progress Report
+Submission Format: Submit as a PDF, Google Doc link, or Microsoft Word (.docx) file on
+Canvas, along with your team's code &amp; data package (.zip).
+Note: One submission per team. Team rosters are officially locked following Milestone 2.
+Section 1: Team Information &amp; Project Metadata
+Project Title: [Insert Your Project Title Here]
+Full Student
+Name
+Milestone 2 Primary Contributions
+[Member 1 Name] [e.g. Raw Data Audit, Cleaning Pipeline Logic (`data
+_
+cleaning.py
+`)]
+[Member 2 Name
+(Optional)]
+[e.g. Descriptive Metrics Computation, Summary Tables]
+[Member 3 Name
+(Optional)]
+[e.g. Exploratory Visualizations (`
+matplotlib`), Report Narrative]
+Section 2: Raw Data Audit &amp; Quality Assessment
+Instructions: Document the initial structural state of your raw dataset prior to cleaning. Identify
+missing values, data type mismatches, duplicate records, structural irregularities, and bad
+entries.
+2.1 Raw Dataset Overview
+Property Raw Data File Name(s) Raw Dimensions (Rows x Columns) Raw File Size Initial Duplicate Row Count 2.2 Data Quality Anomalies Matrix
+Attribute / Column
+Name
+Raw Data Type `district
+_
+spending
+` String (Object) `
+grad
+rate
+_
+` String (Object) Raw Dataset Metric / Attribute
+[e.g.,
+`
+raw
+california
+school
+data
+2023.csv
+_
+_
+_
+_
+`]
+[e.g., 5,420 rows x 24 columns]
+[e.g., 3.8 MB]
+[e.g., 42 duplicate rows identified]
+Identified
+Anomaly / Defect
+Missing /
+Corrupted Count
+(%)
+Formatted as
+currency with '
+'𝑎𝑛𝑑𝑐𝑜𝑚𝑚𝑎𝑠(𝑒. 𝑔.
+14,250.00")
+112 rows (2.0%)
+"
+Trailing '%'
+symbols and
+string 'N/A'
+placeholder
+values
+85 rows (1.5%)
+Attribute / Column
+Name
+Raw Data Type Identified
+Anomaly / Defect
+Missing /
+Corrupted Count
+(%)
+`
+school
+_
+type
+` String (Object) Inconsistent
+capitalization and
+leading
+whitespace ('
+public'
+,
+'PUBLIC')
+0 rows (0.0%)
+[Provide a 2-paragraph narrative summary detailing the raw data audit findings...]
+Section 3: Data Cleaning Pipeline &amp; Transformation
+Logic
+Instructions: Describe every programmatic cleaning step executed in your Python scripts. All
+cleaning must be fully automated in code—manual dataset editing in spreadsheet software is
+strictly prohibited.
+3.1 Programmatic Cleaning Pipeline Summary
+Step # Target Attribute(s) Programmatic
+Transformation /
+Python Method
+Justification &amp;
+Impact
+1 All Columns
+`df.drop_
+duplicate
+s()` / Custom row
+hash filtering
+Removed 42
+identical duplicate
+rows to prevent
+skewed counting.
+2 `district
+_
+spending
+`
+`
+,
+grad
+rate
+`
+_
+String stripping
+(`
+replace('$'
+,
+`
+replace('%'
+,
+`
+.astype(float)`
+'')`
+,
+'')`) +
+Converted text
+strings into
+numeric float
+values for math
+computations.
+Step # Target Attribute(s) Programmatic
+Transformation /
+Python Method
+Justification &amp;
+Impact
+3 `
+grad
+rate
+`
+_
+(Missing Values)
+Dropped missing
+records
+(`dropna(subset=['
+grad
+_
+rate'])`)
+Graduation rate is
+a primary target
+variable;
+imputation would
+introduce bias.
+4 `
+school
+_
+type
+` `
+.str.strip().str.lowe
+r()`
+Standardized text
+formatting for
+group
+aggregations.
+Cleaned Dataset Dimensions: [e.g., 5,280 rows x 20 columns remaining after cleaning]
+[Write a detailed narrative justifying your missing value strategies, outlier handling, and
+type conversion logic...]
+Section 4: Descriptive Analytics &amp; Summary Metrics
+Instructions: Present statistical metrics calculated on your cleaned dataset for key numerical
+and categorical attributes related to your Research Questions.
+4.1 Numerical Summary Statistics Table
+Attribut
+e Name
+Valid
+Count
+Mean Median Std
+Deviatio
+n
+Min /
+Max
+25th /
+75th
+Percent
+ile
+`district
+_
+spendi
+ng
+` ($)
+5,280 $13,850
+.20
+$13,400
+.00
+$2,410.
+50
+$8,200 /
+$22,500
+$11,800
+/
+$15,600
+Attribut
+e Name
+Valid
+Count
+Mean Median Std
+Deviatio
+n
+Min /
+Max
+25th /
+75th
+Percent
+ile
+`
+grad
+r
+_
+ate
+` (%)
+5,280 86.4% 88.1% 7.8% 52.0% /
+99.5%
+82.0% /
+92.3%
+4.2 Grouped Metrics &amp; Categorical Breakdowns
+Category
+Grouping
+Group
+Record
+Count
+Mean
+Spending ($)
+Mean
+Graduation
+Rate (%)
+Median
+Graduation
+Rate (%)
+High
+Spending (&gt;
+$15,000)
+1,420 $17,210.00 89.8% 91.2%
+Moderate
+Spending (
+12, 000–
+15,000)
+2,640 $13,450.00 86.1% 87.5%
+Low
+Spending (&lt;
+$12,000)
+1,220 $10,280.00 82.3% 83.0%
+[Write an analytical summary explaining key patterns revealed by these descriptive
+tables...]
+Section 5: Exploratory Data Visualizations
+Instructions: Include at least three (3) plots generated using Python (`
+matplotlib` / `
+pandas
+`).
+Every figure must have a descriptive caption, labeled axes with units, a title, and a 1–2
+paragraph interpretation.
+Figure 1: Distribution of Key Variable
+Title: [e.g., Distribution of Graduation Rates Across California School Districts (2023)]
+Target Research Question: [RQ1 / RQ2]
+Plot Type: Histogram / Density Plot
+[Insert or Paste Figure 1 Image Here]
+Narrative Interpretation:
+[Write 1–2 paragraphs interpreting Figure 1. Discuss distribution shape, skewness, spread, or
+notable outlier peaks observed in the chart.]
+Figure 2: Relationship Between Two Variables
+Title: [e.g., District Spending vs. 4-Year High School Graduation Rate]
+Target Research Question: [RQ2]
+Plot Type: Scatter Plot with Trend Line
+[Insert or Paste Figure 2 Image Here]
+Narrative Interpretation:
+[Write 1–2 paragraphs interpreting Figure 2. Describe direction, strength, and potential
+non-linearities in the observed relationship.]
+Figure 3: Categorical / Group Comparison Chart
+Title: [e.g., Mean Graduation Rate by District Spending Tier]
+Target Research Question: [RQ1 / RQ2]
+Plot Type: Grouped Bar Chart / Boxplot
+[Insert or Paste Figure 3 Image Here]
+Narrative Interpretation:
+[Write 1–2 paragraphs interpreting Figure 3. Highlight comparisons across categories, variance
+differences, or threshold effects.]
+Section 6: Progression &amp; Research Question
+Alignment
+Instructions: Review your original Research Questions (RQs) and Hypotheses (H) from
+Milestone 1 against your initial data findings. Outline any necessary refinements for Milestone 3.
+Research
+Question #
+Original Milestone
+1 Hypothesis
+Milestone 2
+Preliminary
+Finding
+Status / Plan for
+Milestone 3
+RQ1 [Insert M1
+Hypothesis 1]
+[Describe early
+evidence
+observed in
+descriptive tables
+or plots]
+[Confirmed /
+Supported /
+Contradicted —
+Next step in
+analysis]
+RQ2 [Insert M1
+Hypothesis 2]
+[Describe early
+evidence
+observed in
+descriptive tables
+or plots]
+[Confirmed /
+Supported /
+Contradicted —
+Next step in
+analysis]
+Anticipated Technical Work for Milestone 3:
+[Briefly outline your team's planned analytical methods, final visualization pipeline, and
+presentation structure for Milestone 3.]
+Submission Reminder Checklist
+●
+●
+●
+●
+●
+●
+[ ] Report document exported and submitted on Canvas (PDF, Google Doc link, or .docx).
+[ ] Code &amp; Data package submitted as a single clean
+`
+.zip
+`
+archive on Canvas.
+[ ] `
+.zip
+` file includes raw dataset(s), processed dataset output, Python scripts, and saved
+plot image files.
+[ ] All data cleaning logic is fully programmatic in Python (no manual file edits).
+[ ] Python scripts adhere to PEP-8 guidelines with clean indentation and descriptive
+docstrings.
+[ ] Report includes raw data audit, cleaning pipeline table, summary metrics tables, and 3
+fully labeled figures with narratives.</Text>
         </Document>
         <Document ID="B06E5F14-5958-4D2C-811B-E94CC56D5EBC">
             <Title>Section 2: Raw Data Audit &amp; Quality Assessment </Title>
@@ -85,6 +436,9 @@ Delete the “Author Note” and following text if you do not need it.</Notes>
         <Document ID="2D62D97C-2CBF-46A4-8CDC-3ABFE07B5C66">
             <Title>Abstract</Title>
         </Document>
+        <Document ID="25C3803C-CC35-4CEA-B848-5FA898367D97">
+            <Title>Milestone 2 Template</Title>
+        </Document>
         <Document ID="A3FED7FF-E567-49C0-9C49-D2CBCBB79366">
             <Title>Section 1: Team Identification and Project Metadata </Title>
             <Text>The team of Tristen Garcia and Benjamin Hays elected  to investigate MLB historical statistics in Python to identify trends due to the economic impact of MLB on the United States economy. Milestone tasks were separated, as identified on Table 1, below:
@@ -92,6 +446,100 @@ Delete the “Author Note” and following text if you do not need it.</Notes>
         </Document>
         <Document ID="7B892434-189A-4928-98A7-22F738076961">
             <Title>Research Design</Title>
+        </Document>
+        <Document ID="6ABACA60-43BA-4109-BFF3-E9CC4D80FF5D">
+            <Title>Module 2 requirements</Title>
+            <Text>1. Overview &amp; Objectives
+Milestone 2 (M2) represents the first technical execution checkpoint of your Data Science Term Project. Following the approval of your Milestone 1 (M1) Project Proposal, M2 shifts focus from planning to implementation.
+In this milestone, your team will demonstrate that you have successfully acquired your target dataset, performed thorough data cleaning and preprocessing, conducted initial Exploratory Data Analysis (EDA), and produced meaningful initial data visualizations.
+Primary Objectives:
+	•	Data Ingestion &amp; Pipeline: Import raw dataset(s) into Python and handle initial data parsing.
+	•	Data Cleaning &amp; Preprocessing: Identify and resolve missing values, improper data types, duplicate records, structural inconsistencies, or invalid entries.
+	•	Exploratory Data Analysis (EDA): Compute summary metrics, distributions, and descriptive statistics across key variables.
+	•	Data Visualization: Create at least two (2) clear, well-labeled visualizations (using matplotlib or standard Python visualization tools) that illuminate distributions or relationships within your data.
+	•	Progress Reflection: Evaluate your technical progress against the goals outlined in your M1 proposal and refine your execution plan for Milestone 3 (M3).
+
+2. Required Deliverables
+Each team (1 to 3 members) must submit a single compressed archive (.zip) or GitHub repository link on Canvas containing the following three deliverables:
+Deliverable A: Cleaned Data Pipeline &amp; Analysis Code
+	•	A clean, well-structured, executable Python script (m2_analysis.py) or Jupyter Notebook (m2_analysis.ipynb).
+	•	The script/notebook must execute without errors from top to bottom.
+	•	Include inline comments and docstrings explaining data cleaning decisions and processing steps.
+Deliverable B: Cleaned Dataset or Reproducible Data Generation Script
+	•	The processed, clean dataset exported as a standardized file format (e.g., .csv or .json), OR
+	•	A reproducible data cleaning function/script that automatically transforms raw input data into the cleaned format.
+Deliverable C: Milestone 2 Progress Report
+	•	A written progress document (2–4 pages or ~1,000–1,500 words) structured into the five required report sections detailed below.
+	•	Link to shared Google Doc or Word 365 file or .pdf or Word .docx file.
+	•	Can use Milestone 2 — Data Cleaning &amp; Exploration Progress Report TemplateLinks to an external site. as a template.
+
+3. M2 Progress Report Structure
+Your written M2 report must include the following explicit section headers:
+1. Executive Summary &amp; Proposal Alignment
+2. Data Acquisition &amp; Preprocessing
+3. Exploratory Data Analysis &amp; Summary Statistics
+4. Initial Data Visualizations &amp; Insights
+5. Challenges Encountered &amp; Next Steps for M3
+Section Details:
+1. Executive Summary &amp; Proposal Alignment
+	•	Provide a brief recap of your project's primary problem statement, domain, and core research questions as defined in M1.
+	•	Briefly summarize what was accomplished during this milestone phase.
+2. Data Acquisition &amp; Preprocessing
+	•	Dataset Characteristics: Specify source URL, original file format, row count, column count, and variable data types.
+	•	Cleaning Workflow: Detail all preprocessing steps applied to the dataset:
+	•	Handling missing, null, or corrupt values (e.g., filtering, dropping, or imputing).
+	•	Data type conversions (e.g., converting string dates or numbers to proper int/float/datetime types).
+	•	Renaming headers, removing duplicate records, or filtering out invalid outliers.
+3. Exploratory Data Analysis &amp; Summary Statistics
+	•	Present core descriptive statistics for key quantitative and qualitative variables:
+	•	Quantitative variables: Count, mean, median, standard deviation, minimum, maximum.
+	•	Qualitative/Categorical variables: Unique categories, category frequency counts, mode.
+	•	Discuss initial trends, patterns, or anomalies observed in the processed dataset.
+4. Initial Data Visualizations &amp; Insights
+	•	Include at least two (2) original visualizations generated using matplotlib (e.g., histograms, scatter plots, bar charts, box plots).
+	•	Every figure must include:
+	•	Descriptive figure title
+	•	Clearly labeled axes with appropriate units
+	•	Legend (where applicable)
+	•	A 1–2 paragraph narrative explaining what the plot demonstrates and its relevance to your core project questions.
+5. Challenges Encountered &amp; Next Steps for M3
+	•	Document technical obstacles encountered during data cleaning or script development and how you addressed them.
+	•	State any necessary adjustments made to your project scope or methodology since M1.
+	•	Detail the team's planned execution goals for Milestone 3 (M3) (e.g., advanced statistical modeling, feature engineering, complex visualizations, or algorithm implementation).
+
+4. Code Standards &amp; Technical Expectations
+Your Python code will be evaluated on technical accuracy, defensive programming, and code quality.
+	•	Modularity: Utilize custom functions (def) to encapsulate data cleaning logic and data analysis tasks.
+	•	Defensive Guard Logic: Ensure code handles edge cases gracefully (e.g., checking for empty collections or division by zero using standard built-ins like len()).
+	•	Standard Library &amp; Tool Usage:
+	•	Base data structures: list, dict, tuple, set.
+	•	Standard math &amp; stats: math, statistics, random.
+	•	Scientific/Data libraries (as covered in Weeks 11–12): numpy, matplotlib.pyplot.
+	•	PEP 8 Guidelines: Maintain readable code formatting, consistent variable naming (snake_case), and appropriate whitespace/indentation.
+
+5. Evaluation &amp; Grading Rubric
+Milestone 2 is graded out of 100 Points Total, allocated across technical execution, analysis quality, visualization, and documentation:
+Evaluation Criteria
+Points
+Description
+Data Cleaning &amp; Pipeline Execution
+30 pts
+Dataset successfully imported and cleaned. Null values, data types, and formatting errors correctly addressed with reproducible Python code.
+Exploratory Data Analysis (EDA)
+25 pts
+Comprehensive summary statistics computed for key variables. Logic demonstrates strong computational understanding of data structures.
+Data Visualization Quality
+20 pts
+At least 2 clear, professional matplotlib plots provided with proper titles, axis labels, and explanatory narratives.
+Written Report &amp; Reflection
+15 pts
+Clear documentation following all 5 required sections, thoroughly explaining progress, technical challenges, and roadmap for M3.
+Code Structure &amp; Formatting
+10 pts
+Code adheres to PEP 8 standards, contains modular functions, runs without execution errors, and includes descriptive comments.
+Total Base Score
+100 pts
+</Text>
         </Document>
         <Document ID="230D4C0A-4139-46B5-9F1C-5384BD0F03A7">
             <Title>Section 4: Descriptive Analytics &amp; Summary Metrics</Title>
@@ -117,12 +565,12 @@ A database is a collection of data, and it is expected that the type of data in 
 See Table X for the specific details of this process for this assignment
 [Insert Table X here]</Text>
         </Document>
-        <Document ID="C179F1A2-723D-4814-94F9-405DF9868E62">
-            <Title>Ideas</Title>
-        </Document>
         <Document ID="4B5A1841-950D-4D18-B386-A4F014B039A6">
             <Title>Raw Dataset Overview</Title>
             <Text>[insert raw dataset overview here, from the approved questions]</Text>
+        </Document>
+        <Document ID="C179F1A2-723D-4814-94F9-405DF9868E62">
+            <Title>Ideas</Title>
         </Document>
         <Document ID="2A0A0D79-256A-4DC9-ABAD-32848213F6C8">
             <Title>Procedure</Title>
@@ -350,8 +798,13 @@ Dr. Marc Fisher
 
 </Text>
         </Document>
-        <Document ID="7432931F-6F39-463F-A4B7-A9C9C511BF7C">
-            <Title>Measures</Title>
+        <Document ID="D60898A2-F683-4FC4-81C7-1BE6B0C6ED9C">
+            <Title>Figure 1: Name here</Title>
+            <Text>Title: [Title name here]
+Target Research Question: [Research question here]
+Plot Type: [Plot type here]
+[insert figure]
+Narrative Interpretation:  [Write 1–2 paragraphs interpreting the. Discuss distribution shape, skewness, spread, or notable outlier peaks observed in the chart.] </Text>
         </Document>
     </Documents>
 </SearchIndexes>
