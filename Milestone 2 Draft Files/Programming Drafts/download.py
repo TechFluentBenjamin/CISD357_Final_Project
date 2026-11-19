@@ -31,3 +31,10 @@ filename3 = "rbi.csv"
 urllib.request.urlretrieve(url, filename3)
 
 print ("Download RBI complete!")
+
+print ("Downlaoding People information")
+
+url = "https://raw.githubusercontent.com/SeanG347/LahmanBaseballDatabase/refs/heads/main/People.csv"
+
+filename4="people.csv"
+urllib.request.urlretrieve(url, filename4)

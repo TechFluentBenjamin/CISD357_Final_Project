@@ -5,7 +5,7 @@
 import pandas as pd
 
 # input Raw URL for the CSV file containing salary data
-url = "https://raw.githubusercontent.com/cwhkami007/Lahmann-Baseball-Database-2025-2026-Salary-Updated-2024-/main/moneyballdatabase/Salaries.csv"
+url = "salary.csv"
 df = pd.read_csv(url)
 
 # Ensure salary is numeric and drop any missing values

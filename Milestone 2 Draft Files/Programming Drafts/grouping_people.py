@@ -4,10 +4,9 @@
 
 import pandas as pd
 
-# Load the downloaded People CSV file. This uses a github copy from another individual.
-df = pd.read_csv(
-    "https://raw.githubusercontent.com/SeanG347/LahmanBaseballDatabase/refs/heads/main/People.csv"
-)
+# Load the downloaded People CSV file.
+
+df = pd.read_csv ("people.csv")
 
 final_game_col = "finalGame"
 

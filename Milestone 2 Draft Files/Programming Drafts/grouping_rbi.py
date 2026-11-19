@@ -1,8 +1,9 @@
 import pandas as pd
 
 # input Raw URL for the CSV file containing salary data
-url = "https://raw.githubusercontent.com/cwhkami007/Lahmann-Baseball-Database-2025-2026-Salary-Updated-2024-/refs/heads/main/moneyballdatabase/Batting.csv"
+url = "batting.csv"
 df = pd.read_csv(url)
+
 
 rbi = pd.to_numeric(df["RBI"], errors="coerce").dropna()
 
