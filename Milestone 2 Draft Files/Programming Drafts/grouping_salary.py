@@ -1,16 +1,15 @@
 # Code by Benjamin Hays
 # W0018940
-# Script updated November 19, 2026 
-
+# Script updated November 19, 2026
 
 # Used as input for Table 4-2, Salary grouping
-# To update:  finds highest and lowest year.
 
 import pandas as pd
 
 # input Raw URL for the CSV file containing salary data
 url = "salary.csv"
 df = pd.read_csv(url)
+df["year"] = pd.to_numeric(df["yearID"], errors="coerce")
 
 # Ensure salary is numeric and drop any missing values
 salaries = pd.to_numeric(df["salary"], errors="coerce").dropna()
@@ -38,3 +37,22 @@ range_counts = (
 
 print("Salary Range Counts:")
 print(range_counts.to_string())
+
+# What's the year range in our spreadshet? 
+earliest_year = df["year"].min()
+most_recent_year = df["year"].max()
+print(f"\nData Range: {earliest_year} to {most_recent_year}")
+
+# Grouping salry information. To be used to "normalize" salary calculations
+
+# Define bins for the years.
+year_bins = [1980, 1990, 2000, 2020, 2025]
+year_labels = ["1980 - 1989", "1990 - 1999", "2000 - 2019", "2020 - 2024"]
+
+# pd.cut to cut
+year_groups = pd.cut(df["year"], bins=year_bins, labels=year_labels, right=False)
+year_counts = year_groups.value_counts().sort_index()
+
+# Display the text
+print("\nYearly Entry Counts:")
+print(year_counts.to_string())
