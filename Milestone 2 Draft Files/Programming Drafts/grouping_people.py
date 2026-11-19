@@ -1,6 +1,9 @@
 # Script by Benjamin Hays
+# W0018940
+# Last updated November 19, 2026
+
 # Groups players by birth month and counts the number of players in each month.
-# Displasy information on console.
+# Displasy information on console. To be entered manually in .Doc file per requirements
 
 import pandas as pd
 

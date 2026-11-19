@@ -1,8 +1,9 @@
-# This file downloads the three .csv files and saves them locally
-# This file does not use any type of robustness or additional modules
-# Coded by Benjamin Hays
+# Created by Benjamin Hays
 # W0018940
 # Thurdsday, November 19, 2026
+
+# This file downloads the three .csv files and saves them locally
+# This file does not use any type of robustness or additional modules
 
 import urllib.request
 

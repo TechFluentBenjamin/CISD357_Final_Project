@@ -1,5 +1,10 @@
+# Created by Benjamin Hays
+# W0018940
+# November 19, 2026
+
 # quick and dirty script to remove files created by the script
 # Change file names to align with actual nmaes
+
 
 import os
 

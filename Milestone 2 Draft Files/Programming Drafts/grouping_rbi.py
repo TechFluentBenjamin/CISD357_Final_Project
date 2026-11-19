@@ -1,6 +1,15 @@
+# Script created by Benjamin Hays
+# W0018940 
+# November 19, 2026
+
+#Script imports csv information from the local directory for analysis.
+
+#TO ADD: Code that groups number of players by year, starting in 1980
+
+
 import pandas as pd
 
-# input Raw URL for the CSV file containing salary data
+# input the CSV file containing salary data
 url = "batting.csv"
 df = pd.read_csv(url)
 

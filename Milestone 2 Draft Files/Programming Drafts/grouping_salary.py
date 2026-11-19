@@ -1,6 +1,10 @@
 # Code by Benjamin Hays
 # W0018940
+# Script updated November 19, 2026 
+
+
 # Used as input for Table 4-2, Salary grouping
+# To update:  finds highest and lowest year.
 
 import pandas as pd
 
