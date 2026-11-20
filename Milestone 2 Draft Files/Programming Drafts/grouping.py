@@ -76,7 +76,7 @@ print(f"Missing RBI rows: {missing_rbi_count:,}")
 # Drop missing values for calculations
 rbi_clean = rbi_series.dropna()
 
-# Calculate stats (Note: Removed '$' from RBI as it is a count, not currency)
+# Calculate stats
 mean_rbi = rbi_clean.mean()
 print(f"Mean RBI: {mean_rbi:,.2f}\n")
 
