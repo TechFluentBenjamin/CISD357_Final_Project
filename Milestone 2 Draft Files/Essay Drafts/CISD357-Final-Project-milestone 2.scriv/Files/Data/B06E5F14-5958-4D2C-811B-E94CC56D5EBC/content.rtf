@@ -6,6 +6,10 @@
 \pard\pardeftab720\fi960\sl640\partightenfactor0
 
 \f0\fs32 \cf2 \expnd0\expndtw0\kerning0
-Before engaging in data wrangling, the team performed an audit on the raw data. The audit\'92s purpose is to identify the file name, the file size, the dimensions, and the quantity of duplicate rows. Once performed, a script was developed to detect data anomalies, which must be fixed [restored? Recovered? Reformatted?] before analysis can be performed.\
-The team used multiple databases to perform this audit. In the database X, the raw dimensions were R by D, with a raw file size of  XXMB. After using the python script [script name here], X duplicate rows were identified. In the database X, the raw dimensions were R by D, with a raw file size of  XXMB. After using the python script [script name here], X duplicate rows were identified. In the database X, the raw dimensions were R by D, with a raw file size of  XXMB. After using the python script [script name here], X duplicate rows were identified.  Without perfuming this audit, conclusions could not be acquired due to missing values.  See Table [XXX] for details.\
-Data anomalies were identified in the acquired files. A python script, [script name here] was developed to identify errors in the rows. Errors were found, and included [information here]. Like the audit, without fixing these errors will result in incorrect conclusions acquired due to incomplete or incorrect data. See Table [XXX\} for details. }
+Before engaging in data wrangling, the team performed an audit on the raw data. The audit\'92s purpose is to identify the file name, the file size, the dimensions, and the quantity of duplicate rows. Once performed, a script was developed to detect data anomalies, which must be fixed before analysis can be performed.\
+The first step in the raw analysis process is to download the CSV files to analyze. Benjamin Hays identified the CSV files on public accessible GitHub repositories and wrote a script to download the CSV files to the main directory using Python\'92s built in url lib. Benjamin Hays elected to call this file download.py. \
+The next step is to analyze the downloaded files for size, dimensions, and encoding errors. The code for this was written by Tristen Garcia, and saved in a python script called \'93analyze.py\'94. \
+This was encoded on Table 2.1 and Table 2.2 below by Tristen Garcia. \
+[insert table 2.1]\
+[insert table 2.2]\
+}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="B2EFF715-B878-4294-9FEB-BAF60FB57E7D" Version="2.0" Creator="SCRMAC-3.5.2-17487" Device="MacBook-Pro" Author="" Modified="2026-11-16 12:38:27 -0800" ModID="12E51518-7651-4985-9D62-267752F03900">
+<ScrivenerProject Identifier="B2EFF715-B878-4294-9FEB-BAF60FB57E7D" Version="2.0" Creator="SCRMAC-3.5.2-17487" Device="MacBook-Pro" Author="" Modified="2026-11-20 19:34:12 -0800" ModID="9AF780B0-29DD-407B-9E35-74D3AA4FC00C">
     <Binder>
         <BinderItem UUID="62FE5B5B-966F-42D3-8EEF-90B64069337C" Type="Text" Created="2026-11-04 16:11:16 -0800" Modified="2026-11-04 16:11:16 -0800">
             <Title>About</Title>
@@ -34,172 +34,59 @@
                         <TextSelection>101,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="A3FED7FF-E567-49C0-9C49-D2CBCBB79366" Type="Text" Created="2026-11-04 16:11:16 -0800" Modified="2026-11-08 16:03:19 -0800">
+                <BinderItem UUID="A3FED7FF-E567-49C0-9C49-D2CBCBB79366" Type="Text" Created="2026-11-04 16:11:16 -0800" Modified="2026-11-20 18:10:01 -0800">
                     <Title>Section 1: Team Identification and Project Metadata </Title>
                     <MetaData>
                         <SectionType>A883104D-1816-433D-B90A-4BD2C6D77E24</SectionType>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>252,0</TextSelection>
+                        <TextSelection>434,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="B06E5F14-5958-4D2C-811B-E94CC56D5EBC" Type="Text" Created="2026-11-04 16:24:22 -0800" Modified="2026-11-08 16:26:38 -0800">
+                <BinderItem UUID="B06E5F14-5958-4D2C-811B-E94CC56D5EBC" Type="Text" Created="2026-11-04 16:24:22 -0800" Modified="2026-11-20 18:10:58 -0800">
                     <Title>Section 2: Raw Data Audit &amp; Quality Assessment </Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>1368,0</TextSelection>
+                        <TextSelection>934,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="A7F6336A-AC41-42BF-8630-E30FFB3F4E6C" Type="Folder" Created="2026-11-08 13:24:16 -0800" Modified="2026-11-08 13:24:24 -0800">
-                    <Title>Section 2: Raw Data Audit &amp; Quality Assesment </Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                    <Children>
-                        <BinderItem UUID="4B5A1841-950D-4D18-B386-A4F014B039A6" Type="Text" Created="2026-11-08 13:24:27 -0800" Modified="2026-11-08 13:34:57 -0800">
-                            <Title>Raw Dataset Overview</Title>
-                            <MetaData>
-                                <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>63,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="308E0111-D80D-4BD8-BA77-06C7114E25D5" Type="Text" Created="2026-11-08 13:26:21 -0800" Modified="2026-11-08 13:35:16 -0800">
-                            <Title>Data Quality Anomalies Matrix</Title>
-                            <MetaData>
-                                <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>53,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                    </Children>
-                </BinderItem>
-                <BinderItem UUID="C8EE119C-C799-4034-A07A-51D018D31E02" Type="Text" Created="2026-11-04 16:43:28 -0800" Modified="2026-11-08 16:52:37 -0800">
+                <BinderItem UUID="C8EE119C-C799-4034-A07A-51D018D31E02" Type="Text" Created="2026-11-04 16:43:28 -0800" Modified="2026-11-20 18:13:23 -0800">
                     <Title>Section 3: Data Cleaning Pipeline &amp; Transformation Logic</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>1940,0</TextSelection>
+                        <TextSelection>264,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="230D4C0A-4139-46B5-9F1C-5384BD0F03A7" Type="Text" Created="2026-11-04 16:45:20 -0800" Modified="2026-11-08 16:41:12 -0800">
+                <BinderItem UUID="230D4C0A-4139-46B5-9F1C-5384BD0F03A7" Type="Text" Created="2026-11-04 16:45:20 -0800" Modified="2026-11-20 18:56:25 -0800">
                     <Title>Section 4: Descriptive Analytics &amp; Summary Metrics</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>606,0</TextSelection>
+                        <TextSelection>903,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="473540E9-95F3-4565-9466-FCF29CA459D3" Type="Folder" Created="2026-11-04 16:47:23 -0800" Modified="2026-11-08 13:27:48 -0800">
-                    <Title>Section 4: Descriptive Analytics &amp; Summary Metrics</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                    <Children>
-                        <BinderItem UUID="C204EF16-57ED-4B83-A3D9-5EFC9B7FB0BD" Type="Text" Created="2026-11-04 16:47:07 -0800" Modified="2026-11-08 13:48:05 -0800">
-                            <Title>Numerical Summary Statistics Table</Title>
-                            <MetaData>
-                                <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>19,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="E70B20C2-84F6-4620-86BC-D6F83164EB2A" Type="Text" Created="2026-11-04 16:49:50 -0800" Modified="2026-11-08 13:48:13 -0800">
-                            <Title>Grouped Metrics &amp; Categorical Breakdowns</Title>
-                            <MetaData>
-                                <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>19,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                    </Children>
-                </BinderItem>
-                <BinderItem UUID="B78095E0-C090-4643-B128-37E56514F286" Type="Text" Created="2026-11-04 17:13:10 -0800" Modified="2026-11-08 16:47:40 -0800">
+                <BinderItem UUID="B78095E0-C090-4643-B128-37E56514F286" Type="Text" Created="2026-11-04 17:13:10 -0800" Modified="2026-11-20 19:24:49 -0800">
                     <Title>Section 5: Exploratory Data Visualizations</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>276,0</TextSelection>
+                        <TextSelection>702,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="35AC03A1-BE45-4907-A7C5-11BA04CBCE51" Type="Folder" Created="2026-11-08 16:42:14 -0800" Modified="2026-11-08 16:42:17 -0800">
-                    <Title>Section 5</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                    <Children>
-                        <BinderItem UUID="D60898A2-F683-4FC4-81C7-1BE6B0C6ED9C" Type="Text" Created="2026-11-08 16:42:05 -0800" Modified="2026-11-08 16:49:38 -0800">
-                            <Title>Figure 1: Name here</Title>
-                            <MetaData>
-                                <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,282</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="5C9E7B76-4990-4609-A6EF-F068E3E19328" Type="Text" Created="2026-11-08 16:47:28 -0800" Modified="2026-11-08 16:49:38 -0800">
-                            <Title>Figure 2: Name here</Title>
-                            <MetaData>
-                                <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>282,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="BE6F10AF-40CA-4C8E-B20B-A2E106F2B478" Type="Text" Created="2026-11-08 16:47:35 -0800" Modified="2026-11-08 16:49:38 -0800">
-                            <Title>Figure 3: Name here</Title>
-                            <MetaData>
-                                <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>282,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                    </Children>
-                </BinderItem>
-                <BinderItem UUID="0C26E4F7-8423-45FD-89D3-238135DF35EC" Type="Text" Created="2026-11-04 17:20:02 -0800" Modified="2026-11-08 16:53:10 -0800">
+                <BinderItem UUID="0C26E4F7-8423-45FD-89D3-238135DF35EC" Type="Text" Created="2026-11-04 17:20:02 -0800" Modified="2026-11-20 19:26:42 -0800">
                     <Title>Section 6: Progression &amp; Research Question Alignment</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>882,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="56216B66-EF47-4A40-BD7D-84DA82D422E7" Type="Text" Created="2026-11-04 16:11:16 -0800" Modified="2026-11-08 13:29:43 -0800">
-                    <Title>References</Title>
-                    <MetaData>
-                        <SectionType>B516FD6F-0C8A-4F14-BFC5-B10221D9CC60</SectionType>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
+                        <TextSelection>401,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -239,7 +126,7 @@
                         <FileExtension>pdf</FileExtension>
                     </MetaData>
                     <MediaSettings>
-                        <CurrentPDFPage>4</CurrentPDFPage>
+                        <CurrentPDFPage>3</CurrentPDFPage>
                     </MediaSettings>
                 </BinderItem>
                 <BinderItem UUID="6ABACA60-43BA-4109-BFF3-E9CC4D80FF5D" Type="Text" Created="2026-11-16 12:36:03 -0800" Modified="2026-11-16 12:36:47 -0800">
@@ -467,14 +354,127 @@
                         <TextSelection>510,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
+                <BinderItem UUID="A7F6336A-AC41-42BF-8630-E30FFB3F4E6C" Type="Folder" Created="2026-11-08 13:24:16 -0800" Modified="2026-11-08 13:24:24 -0800">
+                    <Title>Section 2: Raw Data Audit &amp; Quality Assesment </Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="4B5A1841-950D-4D18-B386-A4F014B039A6" Type="Text" Created="2026-11-08 13:24:27 -0800" Modified="2026-11-20 18:10:58 -0800">
+                            <Title>Raw Dataset Overview</Title>
+                            <MetaData>
+                                <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="308E0111-D80D-4BD8-BA77-06C7114E25D5" Type="Text" Created="2026-11-08 13:26:21 -0800" Modified="2026-11-08 13:35:16 -0800">
+                            <Title>Data Quality Anomalies Matrix</Title>
+                            <MetaData>
+                                <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>53,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="473540E9-95F3-4565-9466-FCF29CA459D3" Type="Folder" Created="2026-11-04 16:47:23 -0800" Modified="2026-11-08 13:27:48 -0800">
+                    <Title>Section 4: Descriptive Analytics &amp; Summary Metrics</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="C204EF16-57ED-4B83-A3D9-5EFC9B7FB0BD" Type="Text" Created="2026-11-04 16:47:07 -0800" Modified="2026-11-08 13:48:05 -0800">
+                            <Title>Numerical Summary Statistics Table</Title>
+                            <MetaData>
+                                <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>19,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="E70B20C2-84F6-4620-86BC-D6F83164EB2A" Type="Text" Created="2026-11-04 16:49:50 -0800" Modified="2026-11-08 13:48:13 -0800">
+                            <Title>Grouped Metrics &amp; Categorical Breakdowns</Title>
+                            <MetaData>
+                                <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>19,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="35AC03A1-BE45-4907-A7C5-11BA04CBCE51" Type="Folder" Created="2026-11-08 16:42:14 -0800" Modified="2026-11-08 16:42:17 -0800">
+                    <Title>Section 5</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="D60898A2-F683-4FC4-81C7-1BE6B0C6ED9C" Type="Text" Created="2026-11-08 16:42:05 -0800" Modified="2026-11-08 16:49:38 -0800">
+                            <Title>Figure 1: Name here</Title>
+                            <MetaData>
+                                <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,282</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="5C9E7B76-4990-4609-A6EF-F068E3E19328" Type="Text" Created="2026-11-08 16:47:28 -0800" Modified="2026-11-08 16:49:38 -0800">
+                            <Title>Figure 2: Name here</Title>
+                            <MetaData>
+                                <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>282,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="BE6F10AF-40CA-4C8E-B20B-A2E106F2B478" Type="Text" Created="2026-11-08 16:47:35 -0800" Modified="2026-11-08 16:49:38 -0800">
+                            <Title>Figure 3: Name here</Title>
+                            <MetaData>
+                                <SectionType>17062F3B-7533-4E2C-ACA8-0C235FDA939C</SectionType>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>282,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="56216B66-EF47-4A40-BD7D-84DA82D422E7" Type="Text" Created="2026-11-04 16:11:16 -0800" Modified="2026-11-08 13:29:43 -0800">
+                    <Title>References</Title>
+                    <MetaData>
+                        <SectionType>B516FD6F-0C8A-4F14-BFC5-B10221D9CC60</SectionType>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
             </Children>
         </BinderItem>
     </Binder>
     <Collections>
-        <Collection Type="Binder" ID="4C2F914B-7D10-4841-A6C9-435502CC55BF" Color="0.974804 0.974804 0.974804">
+        <Collection Type="Binder" ID="4C2F914B-7D10-4841-A6C9-435502CC55BF" Color="0.091141 0.091141 0.091141">
             <Title>Binder</Title>
         </Collection>
-        <Collection Type="RecentSearch" ID="ED9F42CB-8CEB-4870-9E2B-055AE0543F3E" Color="0.922173 0.818612 0.999627">
+        <Collection Type="RecentSearch" ID="ED9F42CB-8CEB-4870-9E2B-055AE0543F3E" Color="0.190666 0.172706 0.216531">
             <Title>Search Results</Title>
             <SearchSettings Operator="Any" Type="All" CaseSensitive="No" IgnoreDiacritics="No">{School</SearchSettings>
         </Collection>
@@ -545,14 +545,14 @@
     </StatusSettings>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="Yes" Deadline="2011-07-07 04:27:17 -0700" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2026-11-17 00:00:00 -0800" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2026-11-16 12:35:52 -0800"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2026-11-21 00:00:00 -0800" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="-319" Characters="-1923" Date="2026-11-20 18:03:33 -0800"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2026-11-16 00:00:00 -0800">
-        <DraftWordCount>0</DraftWordCount>
-        <DraftCharCount>0</DraftCharCount>
-        <OtherWordCount>871</OtherWordCount>
-        <OtherCharCount>6614</OtherCharCount>
+    <RecentWritingHistory Date="2026-11-20 00:00:00 -0800">
+        <DraftWordCount>-319</DraftWordCount>
+        <DraftCharCount>-1923</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
     <BookmarksFolderUUID>48A5DCAC-11AA-434A-8DE1-F5C293BE283A</BookmarksFolderUUID>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>

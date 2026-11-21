@@ -2,7 +2,6 @@
 # Analyzes Basketball players, batting data, and salary data.
 # W0018940
 # Last updated November 19, 2026
-# Runs BEFORE the cleaning script!
 
 import pandas as pd
 
@@ -12,9 +11,9 @@ import pandas as pd
 print("--- PART 1: PEOPLE DATA ---")
 
 # Load the downloaded People CSV file.
-df_people = pd.read_csv("people.csv")
+df_people = pd.read_csv("people_clean.csv")
 
-final_game_col = "finalGame"
+final_game_col = "finalgame"
 
 # Filter to include only retired players (those with info in finalGame)
 df_people_filtered = df_people[df_people[final_game_col].notna()].copy()
@@ -35,15 +34,15 @@ month_names = {
     12: "December",
 }
 
-df_people_filtered["birthMonth_name"] = df_people_filtered["birthMonth"].map(
+df_people_filtered["birthmonth_name"] = df_people_filtered["birthmonth"].map(
     month_names
 )
 
 # Group by month and count the number of players in each month.
 month_counts = (
-    df_people_filtered["birthMonth_name"]
+    df_people_filtered["birthmonth_name"]
     .value_counts(dropna=False)
-    .reindex(list(month_names.values()) + [float("nan")])
+    .reindex(list(month_names.values()))  # + [float("nan")])
     .rename_axis("birth_month")
     .reset_index(name="player_count")
 )
@@ -79,11 +78,11 @@ if not valid_months.empty:
 print("\n--- PART 2: BATTING DATA ---")
 
 # input the CSV file containing batting data
-df_batting = pd.read_csv("batting.csv")
-df_batting["year"] = pd.to_numeric(df_batting["yearID"], errors="coerce")
+df_batting = pd.read_csv("batting_clean.csv")
+df_batting["year"] = pd.to_numeric(df_batting["yearid"], errors="coerce")
 
 # Convert RBI to numeric and handle missing values
-rbi_series = pd.to_numeric(df_batting["RBI"], errors="coerce")
+rbi_series = pd.to_numeric(df_batting["rbi"], errors="coerce")
 missing_rbi_count = rbi_series.isna().sum()
 
 print(f"Missing RBI rows: {missing_rbi_count:,}")
@@ -135,8 +134,8 @@ print(year_counts.to_string())
 print("\n--- PART 3: SALARY DATA ---")
 
 # input Raw URL for the CSV file containing salary data
-df_salary = pd.read_csv("salary.csv")
-df_salary["year"] = pd.to_numeric(df_salary["yearID"], errors="coerce")
+df_salary = pd.read_csv("salary_adjusted.csv")
+df_salary["year"] = pd.to_numeric(df_salary["yearid"], errors="coerce")
 
 # Ensure salary is numeric and drop any missing values
 salaries = pd.to_numeric(df_salary["salary"], errors="coerce").dropna()

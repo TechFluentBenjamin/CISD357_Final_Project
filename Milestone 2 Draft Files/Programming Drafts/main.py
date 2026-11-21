@@ -11,14 +11,15 @@ import sys
 
 
 def display_main_menu():
-    print("\n1. Read me")
-    print("2. Download Data")
-    print("3. Analyze Data")
-    print("4. Group Data")
-    print("5. Clean Data")
-    print("6. Generate Charts")
-    print("7. View Report")
-    print("8. Quit program")
+    print("\n1. Read me")  # a print statement. No one gets credit.
+    print("2. Download Data")  # download.py - by Benjamin Hays
+    print("3. Analyze Data")  # analyze.py - by Tristen Garcia
+    print("4. Clean Data")  # clean.py - by Benjamin Hays
+    print("5. Summary Stats")  # summarystats.py - by Tristen Garcia
+    print("6. Group Data")  # grouping.py - by Benjamin Hays
+    print("7. Generate Charts")  # charets.py - by Tristen Garcia
+    print("8. View Report")  # report.md - text and code by Benjamin Hays
+    print("9. Quit program")  # just running=false & sys.exit(0). No credit.
 
 
 def handle_readme():
@@ -43,20 +44,30 @@ def handle_analyze():
         print("\n“Analysis complete. Please select the next option.”")
 
 
-def handle_group():
-    if not os.path.exists("grouping.py"):
-        print("\n“Grouping.py was not found.“")
-    else:
-        subprocess.run([sys.executable, "grouping.py"])
-        print("\n“Grouping complete. Please select the next option.”")
-
-
 def handle_clean():
     if not os.path.exists("clean.py"):
         print("\nError: clean.py was not found.")
     else:
         subprocess.run([sys.executable, "clean.py"])
         print("\n“Successfully cleaned the files. Please select the next option.”")
+
+
+def handle_summary():
+    if not os.path.exists("summarystats.py"):
+        print("\nError: summarystats.py was not found.")
+    else:
+        subprocess.run([sys.executable, "summarystats.py"])
+        print(
+            "\n“Successfully displayed the summary statistics. Please select the next option.”"
+        )
+
+
+def handle_group():
+    if not os.path.exists("grouping.py"):
+        print("\n“Grouping.py was not found.“")
+    else:
+        subprocess.run([sys.executable, "grouping.py"])
+        print("\n“Grouping complete. Please select the next option.”")
 
 
 def handle_chart():
@@ -68,7 +79,7 @@ def handle_chart():
 
 
 def handle_report():
-    report_file = "visualization_report.md"
+    report_file = "report.md"
     if not os.path.exists(report_file):
         print(f"\nError: '{report_file}' was not found in the main directory.")
         return
@@ -109,7 +120,7 @@ def main():
     running = True
     while running:
         display_main_menu()
-        choice = input("\nEnter your choice (1-8): ").strip()
+        choice = input("\nEnter your choice (1-9): ").strip()
 
         if choice == "1":
             handle_readme()
@@ -118,14 +129,16 @@ def main():
         elif choice == "3":
             handle_analyze()
         elif choice == "4":
-            handle_group()
-        elif choice == "5":
             handle_clean()
+        elif choice == "5":
+            handle_summary()
         elif choice == "6":
-            handle_chart()
+            handle_group()
         elif choice == "7":
-            handle_report()
+            handle_chart()
         elif choice == "8":
+            handle_report()
+        elif choice == "9":
             print("\nExiting program. Goodbye!")
             running = False
         else:

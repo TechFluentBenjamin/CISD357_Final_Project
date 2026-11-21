@@ -14,8 +14,9 @@ os.remove("people.csv")
 os.remove("batting_clean.csv")
 os.remove("salary_adjusted.csv")
 os.remove("people_clean.csv")
-os.remove("salary_clean_final.csv")
-os.remove("chart1.png")
-os.remove("chart2.png")
-os.remove("chart3.png")
-os.remove("chart4.png")
+
+# To Be Developed by Tristen Garcia
+
+# os.remove("chart1.png")
+# os.remove("chart2.png")
+# os.remove("chart3.png")

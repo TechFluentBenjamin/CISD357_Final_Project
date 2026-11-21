@@ -7,7 +7,9 @@
 
 import urllib.request
 
+#############
 # Download batting information
+#############
 
 print("Downlaoding batting information")
 
@@ -18,8 +20,9 @@ urllib.request.urlretrieve(url, filename1)
 
 print("Download batting complet!")
 
-
+#############
 # Download salary information
+#############
 
 print("Downloading salary information")
 url = "https://raw.githubusercontent.com/cwhkami007/Lahmann-Baseball-Database-2025-2026-Salary-Updated-2024-/main/moneyballdatabase/Salaries.csv"
@@ -29,7 +32,9 @@ urllib.request.urlretrieve(url, filename2)
 
 print("Download salary complete!")
 
+#############
 # Download people information
+#############
 
 print("Downlaoding People information")
 
