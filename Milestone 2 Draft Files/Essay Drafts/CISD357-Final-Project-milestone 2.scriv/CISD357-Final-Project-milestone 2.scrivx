@@ -31,7 +31,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>101,0</TextSelection>
+                        <TextSelection>134,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="A3FED7FF-E567-49C0-9C49-D2CBCBB79366" Type="Text" Created="2026-11-04 16:11:16 -0800" Modified="2026-11-20 18:10:01 -0800">
@@ -50,7 +50,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>934,0</TextSelection>
+                        <TextSelection>933,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="C8EE119C-C799-4034-A07A-51D018D31E02" Type="Text" Created="2026-11-04 16:43:28 -0800" Modified="2026-11-20 18:13:23 -0800">
@@ -126,7 +126,7 @@
                         <FileExtension>pdf</FileExtension>
                     </MetaData>
                     <MediaSettings>
-                        <CurrentPDFPage>3</CurrentPDFPage>
+                        <CurrentPDFPage>6</CurrentPDFPage>
                     </MediaSettings>
                 </BinderItem>
                 <BinderItem UUID="6ABACA60-43BA-4109-BFF3-E9CC4D80FF5D" Type="Text" Created="2026-11-16 12:36:03 -0800" Modified="2026-11-16 12:36:47 -0800">
