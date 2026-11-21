@@ -90,43 +90,51 @@ def clean_csv_headers(file_path, columns_to_drop=None, drop_if_column_blank=None
 
 
 def calculate_inflationary_salary(file_path):
-  #reads the clean salary file to perform calculations.
+    # reads the clean salary file to perform calculations.
     try:
         # Load the cleaned file (e.g., salary_clean.csv)
         df = pd.read_csv(file_path)
-        
-        target_year_col = 'yearid' 
-        target_salary_col = 'salary'
+
+        target_year_col = "yearid"
+        target_salary_col = "salary"
 
         if target_year_col not in df.columns or target_salary_col not in df.columns:
-            print(f"Error: Required columns ('{target_year_col}' or '{target_salary_col}') not found in {file_path}.")
+            print(
+                f"Error: Required columns ('{target_year_col}' or '{target_salary_col}') not found in {file_path}."
+            )
             return
 
         # Create new column, initialized as empty
-        df['salary_2026'] = pd.NA
+        df["salary_2026"] = pd.NA
 
         def get_multiplier(year):
-            if 1980 <= year <= 1989: return 3.14
-            elif 1990 <= year <= 1999: return 2.58
-            elif 2000 <= year <= 2009: return 1.96
-            elif 2010 <= year <= 2019: return 1.55
-            elif 2020 <= year <= 2026: return 1.30
-            else: return None
+            if 1980 <= year <= 1989:
+                return 3.14
+            elif 1990 <= year <= 1999:
+                return 2.58
+            elif 2000 <= year <= 2009:
+                return 1.96
+            elif 2010 <= year <= 2019:
+                return 1.55
+            elif 2020 <= year <= 2026:
+                return 1.30
+            else:
+                return None
 
         print(f"Calculating inflation adjustments for {file_path}...")
-        
-        # Apply multiplier 
-        df['multiplier'] = df[target_year_col].apply(get_multiplier)
-        
-        # Perform the calculation. Round() to ensure no long trailing decimals from math operations
-        df['salary_2026'] = (df[target_salary_col] * df['multiplier']).round(0)
 
-        #uses integers in 64. I don't want zeros! 
-        df[target_salary_col] = df[target_salary_col].astype('Int64')
-        df['salary_2026'] = df['salary_2026'].astype('Int64')
+        # Apply multiplier
+        df["multiplier"] = df[target_year_col].apply(get_multiplier)
+
+        # Perform the calculation. Round() to ensure no long trailing decimals from math operations
+        df["salary_2026"] = (df[target_salary_col] * df["multiplier"]).round(0)
+
+        # uses integers in 64. I don't want zeros!
+        df[target_salary_col] = df[target_salary_col].astype("Int64")
+        df["salary_2026"] = df["salary_2026"].astype("Int64")
 
         # Drop the temporary multiplier column
-        df = df.drop(columns=['multiplier'])
+        df = df.drop(columns=["multiplier"])
 
         # Save as a final version
         base_name, ext = os.path.splitext(file_path)
@@ -137,14 +145,54 @@ def calculate_inflationary_salary(file_path):
     except Exception as e:
         print(f"An error occurred during salary calculation: {e}\n")
 
+
 if __name__ == "__main__":
     # Dictionary format! Allows easy editing on what to drop and not drop.
     file_configs = {
         "batting.csv": {
-            "drop": ["stint", "teamid", "lgid", "g", "ab", "r", "h", "2b", "3b", "hr", "sb", "cs", "bb", "so", "ibb", "hbp", "sh", "sf", "gidp"]
+            "drop": [
+                "stint",
+                "teamid",
+                "lgid",
+                "g",
+                "ab",
+                "r",
+                "h",
+                "2b",
+                "3b",
+                "hr",
+                "sb",
+                "cs",
+                "bb",
+                "so",
+                "ibb",
+                "hbp",
+                "sh",
+                "sf",
+                "gidp",
+            ]
         },
         "people.csv": {
-            "drop": ["id", "birthday", "birthcity", "birthcountry", "birthstate", "deathyear", "deathmonth", "deathday", "deathcountry", "deathstate", "deathcity", "weight", "height", "bats", "throws", "debut", "bbrefid", "retroid"],
+            "drop": [
+                "id",
+                "birthday",
+                "birthcity",
+                "birthcountry",
+                "birthstate",
+                "deathyear",
+                "deathmonth",
+                "deathday",
+                "deathcountry",
+                "deathstate",
+                "deathcity",
+                "weight",
+                "height",
+                "bats",
+                "throws",
+                "debut",
+                "bbrefid",
+                "retroid",
+            ],
             "blank_check": "finalgame",
         },
         "salary.csv": {"drop": ["teamid", "lgid"]},
@@ -166,12 +214,14 @@ if __name__ == "__main__":
 
     print("Starting inflation adjustments...\n")
 
-# What's in salary clean? Let's look at it! 
-    target_salary_file = "salary_clean.csv" 
+    # What's in salary clean? Let's look at it!
+    target_salary_file = "salary_clean.csv"
     if os.path.exists(target_salary_file):
         calculate_inflationary_salary(target_salary_file)
     else:
-        print(f"Warning: Could not find '{target_salary_file}' to perform inflation math.")
+        print(
+            f"Warning: Could not find '{target_salary_file}' to perform inflation math."
+        )
 
     os.remove("salary_clean.csv")
 

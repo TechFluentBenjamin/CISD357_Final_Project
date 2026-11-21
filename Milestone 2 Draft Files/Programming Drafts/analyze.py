@@ -1,3 +1,9 @@
+# Analyze script 
+# Code by Tristen Garcia
+# Uploaded by Benjamin Hays
+# Direct copy from sent script from Discord 
+# November 20, 2026
+
 import pandas as pd
 from pathlib import Path
 

@@ -21,12 +21,23 @@ df_people_filtered = df_people[df_people[final_game_col].notna()].copy()
 
 # Map the number to the month for readability.
 month_names = {
-    1: "January", 2: "February", 3: "March", 4: "April",
-    5: "May", 6: "June", 7: "July", 8: "August",
-    9: "September", 10: "October", 11: "November", 12: "December",
+    1: "January",
+    2: "February",
+    3: "March",
+    4: "April",
+    5: "May",
+    6: "June",
+    7: "July",
+    8: "August",
+    9: "September",
+    10: "October",
+    11: "November",
+    12: "December",
 }
 
-df_people_filtered["birthMonth_name"] = df_people_filtered["birthMonth"].map(month_names)
+df_people_filtered["birthMonth_name"] = df_people_filtered["birthMonth"].map(
+    month_names
+)
 
 # Group by month and count the number of players in each month.
 month_counts = (
@@ -52,8 +63,12 @@ if not valid_months.empty:
     difference = int(highest_month["player_count"] - lowest_month["player_count"])
     percentage_diff = (difference / int(lowest_month["player_count"])) * 100
 
-    print(f"\nHighest: {highest_month['birth_month']} ({int(highest_month['player_count']):,})")
-    print(f"Lowest:  {lowest_month['birth_month']} ({int(lowest_month['player_count']):,})")
+    print(
+        f"\nHighest: {highest_month['birth_month']} ({int(highest_month['player_count']):,})"
+    )
+    print(
+        f"Lowest:  {lowest_month['birth_month']} ({int(lowest_month['player_count']):,})"
+    )
     print(f"Difference between highest and lowest birth month: {difference:,}")
     print(f"Percentage difference: {percentage_diff:.2f}%")
 
@@ -105,7 +120,9 @@ print(f"\nData Range: {earliest_year} to {most_recent_year}")
 year_bins = [1985, 1990, 2000, 2020, 2025]
 year_labels = ["1985 - 1989", "1990 - 1999", "2000 - 2019", "2020 - 2024"]
 
-year_groups = pd.cut(df_batting["year"], bins=year_bins, labels=year_labels, right=False)
+year_groups = pd.cut(
+    df_batting["year"], bins=year_bins, labels=year_labels, right=False
+)
 year_counts = year_groups.value_counts().sort_index()
 
 print("\nYearly Entry Counts:")
@@ -155,7 +172,9 @@ print(f"\nData Range: {earliest_year_s} to {most_recent_year_s}")
 year_bins_s = [1980, 1990, 2000, 2020, 2025]
 year_labels_s = ["1980 - 1989", "1990 - 1999", "2000 - 2019", "2020 - 2024"]
 
-year_groups_s = pd.cut(df_salary["year"], bins=year_bins_s, labels=year_labels_s, right=False)
+year_groups_s = pd.cut(
+    df_salary["year"], bins=year_bins_s, labels=year_labels_s, right=False
+)
 year_counts_s = year_groups_s.value_counts().sort_index()
 
 print("\nYearly Entry Counts:")
