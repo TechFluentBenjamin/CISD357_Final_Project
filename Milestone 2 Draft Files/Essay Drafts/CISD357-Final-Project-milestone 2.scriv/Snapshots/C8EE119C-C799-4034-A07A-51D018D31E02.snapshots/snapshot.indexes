@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SnapshotIndexes Version="1.0" BinderUUID="C8EE119C-C799-4034-A07A-51D018D31E02">
+    <Snapshot Date="2026-11-21 16:26:48 -0800">
+        <Title>Untitled Snapshot</Title>
+        <Text>The next phase of the data wrangling process is to perform data cleaning. A data cleaning pipeline process was implemented to clean the data. Data cleaning is vital to remove information that is not required for the project, to remove duplicate columns, to change the column headers to be descriptive, and to confirm row information is formatted correctly.  The data cleaning pipeline was developed by Benjamin Hays, and the program, clean.py, was written and developed by Benjamin Hays based off the Lab 12 assignment. 
+[Insert Table 3.1 here]</Text>
+    </Snapshot>
+    <Snapshot Date="2026-11-21 17:01:45 -0800">
+        <Title>Untitled Snapshot</Title>
+        <Text>Data cleaning is the next step in the data wrangling process. A data cleaning pipeline process was designed and implemented to remove information not required for analysis, to remove duplicate columns, to change the column headers to align with data analysis standards, and to confirm the format of the information within the .CSV files. The data cleaning pipeline was developed by Benjamin Hays, and the program, “clean.py”, was written and developed by Benjamin Hays based off the Lab 12 assignment in this class. 
+[Insert Table 3.1 here]</Text>
+    </Snapshot>
     <Snapshot Date="2026-11-06 16:52:47 -0800">
         <Title>Untitled Snapshot</Title>
         <Text>We propose to use the following sources for our data. These sources are from publicly available information which can be accessed as a .cvs file from the main website, https://sabr.org/lahman-database/. The specific sources are identified in Table 2.

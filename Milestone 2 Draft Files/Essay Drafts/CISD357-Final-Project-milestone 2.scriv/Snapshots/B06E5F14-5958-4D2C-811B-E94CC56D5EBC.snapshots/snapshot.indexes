@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SnapshotIndexes Version="1.0" BinderUUID="B06E5F14-5958-4D2C-811B-E94CC56D5EBC">
+    <Snapshot Date="2026-11-21 16:25:41 -0800">
+        <Title>Untitled Snapshot</Title>
+        <Text>Before engaging in data wrangling, the team performed an audit on the raw data. The audit’s purpose is to identify the file name, the file size, the dimensions, and the quantity of duplicate rows. Once performed, a script was developed to detect data anomalies, which must be fixed before analysis can be performed.
+The first step in the raw analysis process is to download the CSV files to analyze. Benjamin Hays identified the CSV files on public accessible GitHub repositories and wrote a script to download the CSV files to the main directory using Python’s built in url lib. Benjamin Hays elected to call this file download.py. 
+The next step is to analyze the downloaded files for size, dimensions, and encoding errors. The code for this was written by Tristen Garcia, and saved in a python script called “analyze.py”. 
+This was encoded on Table 2.1 and Table 2.2 below by Tristen Garcia. 
+[insert table 2.1]
+[insert table 2.2]
+</Text>
+    </Snapshot>
+    <Snapshot Date="2026-11-21 17:01:58 -0800">
+        <Title>Untitled Snapshot</Title>
+        <Text>Before engaging in data wrangling, the team performed a raw data analysis audit. The audit’s purpose is to identify the file name, the file size, the dimensions, and the quantity of duplicate rows. Once performed, a script was developed to detect data anomalies, which must be fixed before analysis can be performed.
+The first step in the raw analysis process is to download the CSV files to analyze. Benjamin Hays identified the CSV files on public accessible GitHub repositories and wrote a script to download the CSV files to the main directory using Python’s built in urllib. Benjamin Hays named this file “download.py”. 
+The next step is to analyze the downloaded files for size, dimensions, and encoding errors. The code for this was written by Tristen Garcia, and saved in a Python script called “analyze.py”. 
+This was encoded on Table 2.1 and Table 2.2 below by Tristen Garcia. 
+[insert table 2.1]
+[insert table 2.2]
+</Text>
+    </Snapshot>
     <Snapshot Date="2026-11-20 18:03:56 -0800">
         <Title>Untitled Snapshot</Title>
         <Text>Before engaging in data wrangling, the team performed an audit on the raw data. The audit’s purpose is to identify the file name, the file size, the dimensions, and the quantity of duplicate rows. Once performed, a script was developed to detect data anomalies, which must be fixed [restored? Recovered? Reformatted?] before analysis can be performed.

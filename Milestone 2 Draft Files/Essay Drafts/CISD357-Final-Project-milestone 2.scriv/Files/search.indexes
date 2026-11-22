@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
-        <Document ID="D60898A2-F683-4FC4-81C7-1BE6B0C6ED9C">
-            <Title>Figure 1: Name here</Title>
-            <Text>Title: [Title name here]
-Target Research Question: [Research question here]
-Plot Type: [Plot type here]
-[insert figure]
-Narrative Interpretation:  [Write 1–2 paragraphs interpreting the. Discuss distribution shape, skewness, spread, or notable outlier peaks observed in the chart.] </Text>
+        <Document ID="059ADCAD-9DB3-40F4-9685-9E4FC789D620">
+            <Title>Title Page</Title>
+            <Text>Quantified Analysis of Past Major League Baseball Data: An Exploration of Data in Python
+(Milestone 2)
+ 
+Tristen Garcia
+Benjamin Hays
+Sacramento City College
+CISD/CISP 357: Introduction to Data Science
+Dr. Marc Fisher 
+[Date TBD]
+
+</Text>
         </Document>
         <Document ID="E1163B1C-CF5E-4C4E-A2B6-B8B13DF883C8">
             <Title>Method</Title>
@@ -22,7 +28,7 @@ Narrative Interpretation:  [Write 1–2 paragraphs interpreting the. Discuss dis
         </Document>
         <Document ID="B78095E0-C090-4643-B128-37E56514F286">
             <Title>Section 5: Exploratory Data Visualizations</Title>
-            <Text>Using the data, three graphs were developed to meet the assignment requirements. Figure 1 is a scatter diagram showing a connection between salary and RBI, with the design developed by Benjamin Hays in the program Tableau, and coded into Python by Tristen Garcia. Figure 2 is a bar chart showing the RBIs on the Y axis with the player’s birth months on the X axis. This was designed by Benjamin Hays in the program Tableau, and coded into Python by Tristen Garcia. Figure 3 is [insert information here], designed and coded by Tristen Garcia. Details about the graphs and their meaning can be found in the file report.md, written and coded by Benjamin Hays with verbal interoperation by Tristen Garcia. </Text>
+            <Text>Using the data, three graphs were developed to align with assignment requirements. Figure 1 is a scatter diagram showing salary to the player’s RBI, with the design developed by Benjamin Hays in the program Tableau, and coded by Tristen Garcia. Figure 2 is a bar chart showing the RBIs on the Y axis with the player’s birth months on the X axis. This was designed by Benjamin Hays in the program Tableau, and coded by Tristen Garcia. Figure 3 is [insert information here], designed and coded by Tristen Garcia with verbal assistance by Benjamin Hays. Details about the graphs and their meaning can be found in the file “report.md”, written and coded by Benjamin Hays with verbal assistance and revision by Tristen Garcia, located within the Python code. </Text>
         </Document>
         <Document ID="56216B66-EF47-4A40-BD7D-84DA82D422E7">
             <Title>References</Title>
@@ -35,8 +41,8 @@ Hypothesis 3 (H3): The team believes there is a weak correlation between RBIs an
         </Document>
         <Document ID="0C26E4F7-8423-45FD-89D3-238135DF35EC">
             <Title>Section 6: Progression &amp; Research Question Alignment</Title>
-            <Text>A second milestone is a wonderful opportunity to review if the research questions asked are aligned with the data. In other words, does the data exist to answer the questions, or would better questions be asked from the data. The chart was typed by Benjamin Hays, with input from Tristen Garcia. 
-Additionally, an easy to follow menu interface, main.py, was developed and maintained by Benjamin Hays. 
+            <Text>A second milestone is an opportunity to review if the research questions asked are aligned with the data. In other words, does the data exist to answer the questions, or would better questions be asked from the data. The chart was typed by Benjamin Hays, with verbal input from Tristen Garcia. See Table 6.1, below
+Additionally, “main.py’ was developed and maintained by Benjamin Hays to provide interactions with the various scripts. Another script, “remove.py” was crudely developed by Benjamin Hays to remove any created files as part of the testing process, allowing the folder to quickly be “reset” to a default state. Additionally, Benjamin Hays formatted and standardized the tables within this document, but the content of the tables are the responsibility of the stated parties.
 </Text>
         </Document>
         <Document ID="53B66ED7-763F-4A3C-BF24-AC4BC6544911">
@@ -397,9 +403,9 @@ fully labeled figures with narratives.</Text>
         </Document>
         <Document ID="B06E5F14-5958-4D2C-811B-E94CC56D5EBC">
             <Title>Section 2: Raw Data Audit &amp; Quality Assessment </Title>
-            <Text>Before engaging in data wrangling, the team performed an audit on the raw data. The audit’s purpose is to identify the file name, the file size, the dimensions, and the quantity of duplicate rows. Once performed, a script was developed to detect data anomalies, which must be fixed before analysis can be performed.
-The first step in the raw analysis process is to download the CSV files to analyze. Benjamin Hays identified the CSV files on public accessible GitHub repositories and wrote a script to download the CSV files to the main directory using Python’s built in url lib. Benjamin Hays elected to call this file download.py. 
-The next step is to analyze the downloaded files for size, dimensions, and encoding errors. The code for this was written by Tristen Garcia, and saved in a python script called “analyze.py”. 
+            <Text>Before performing data wrangling, the team audited the raw data. The audit’s purpose is to identify the file name, the file size, the dimensions, and the quantity of duplicate rows. Once performed, a script was developed to detect data anomalies, which must be fixed before analysis can be performed.
+The first step in the raw analysis process is to download the CSV files to analyze locally. Benjamin Hays identified the CSV files on public accessible GitHub repositories and wrote a script to download the CSV files to the main directory using Python’s built in urllib and named this file “download.py”. 
+The next step is to analyze the downloaded files for size, dimensions, and encoding errors. The code for this was written by Tristen Garcia, and saved in a Python script called “analyze.py”. 
 This was encoded on Table 2.1 and Table 2.2 below by Tristen Garcia. 
 [insert table 2.1]
 [insert table 2.2]
@@ -445,10 +451,9 @@ Delete the “Author Note” and following text if you do not need it.</Notes>
         </Document>
         <Document ID="A3FED7FF-E567-49C0-9C49-D2CBCBB79366">
             <Title>Section 1: Team Identification and Project Metadata </Title>
-            <Text>The team of Tristen Garcia and Benjamin Hays elected  to investigate MLB historical statistics in Python to identify trends due to the economic impact of MLB on the United States economy. Milestone tasks were agreed upon by each team member, as identified on Table 1, below:
+            <Text>Tristen Garcia and Benjamin Hays investigated MLB historical statistics using Python to identify data correlations due to the economic impact of MLB on the United States economy. Milestone tasks were agreed upon by each team member, as identified on Table 1:
 [insert table 1 here]
-Each team member was responsible for completing the tasks, but could seek assistance based on the agreement established in Milestone 1. 
-</Text>
+Each team member was responsible for completing the tasks, but could seek assistance based on the agreement established in Milestone 1. </Text>
         </Document>
         <Document ID="7B892434-189A-4928-98A7-22F738076961">
             <Title>Research Design</Title>
@@ -549,11 +554,11 @@ Total Base Score
         </Document>
         <Document ID="230D4C0A-4139-46B5-9F1C-5384BD0F03A7">
             <Title>Section 4: Descriptive Analytics &amp; Summary Metrics</Title>
-            <Text>One the data was clean as discussed in section 3, the data was then analyzed using the appropriate Python tools. Basic data analysis was performed to confirm the code is aligned, the target questions could be answered with the data acquired, and the grouping of data. 
-Statistics were generate on the cleaned .CSV file for the attributes, counts, mean, median, standard deviation, min/max, and 25th/75th percentile of the valid .CSV file. This was performed by using a script developed by Tristen Garcia, called summarystats.py, with the table completed by Tristen Garcia.
+            <Text>One the data was cleaned, Python code was develop to analyze the data. Basic data analysis was performed to confirm the research questions could be answered with the data acquired, and for data to be grouped allowing the analysis process to be developed as restrictions are known. 
+Statistics were generate on the cleaned .CSV file for the attributes, counts, mean, median, standard deviation, min/max, and the first and third quartile of the .CSV file, as relevant. This was performed by using a script developed by Tristen Garcia, called “summarystats.py”, with Table 4.1 completed by Tristen Garcia.
 [insert table 4.1]
 
-Once general statistics were performed, then data was grouped. This grouping was performed to categorize the data and to identify cutoffs or incomplete data. This data was developed by Benjamin Hays in a program he wrote called grouping.py, with the table completed by Benjamin Hays,.
+The next step is to group the data. This grouping was performed to categorize the data and to identify cutoffs or incomplete data to help plan how analysts should proceed. This data grouping script was developed by Benjamin Hays called “grouping.py”, and Table 4.2 completed by Benjamin Hays.
 
 [insert tables 4.2 here]</Text>
         </Document>
@@ -566,7 +571,7 @@ Once general statistics were performed, then data was grouped. This grouping was
         </Document>
         <Document ID="C8EE119C-C799-4034-A07A-51D018D31E02">
             <Title>Section 3: Data Cleaning Pipeline &amp; Transformation Logic</Title>
-            <Text>The next phase of the data wrangling process is to perform data cleaning. A data cleaning pipeline process was implemented to clean the data. Data cleaning is vital to remove information that is not required for the project, to remove duplicate columns, to change the column headers to be descriptive, and to confirm row information is formatted correctly.  The data cleaning pipeline was developed by Benjamin Hays, and the program, clean.py, was written and developed by Benjamin Hays based off the Lab 12 assignment. 
+            <Text>Data cleaning is the next step in the data wrangling process. A data cleaning pipeline process was designed and implemented to remove information not required for analysis, to remove duplicate columns, to change the column headers to align with data analysis standards, and to confirm the format of the information within the .CSV files. The data cleaning pipeline was developed by Benjamin Hays, and the program, “clean.py”, was written and developed by Benjamin Hays based off the Lab 12 assignment in this class. See Table 3.1 for detailed information. 
 [Insert Table 3.1 here]</Text>
         </Document>
         <Document ID="4B5A1841-950D-4D18-B386-A4F014B039A6">
@@ -783,23 +788,17 @@ Sernag vo velar, arul re rintax ma su, la ux harle jince tharn morvit yiphras xu
 {Due Date}</Text>
             <Notes>The &lt;$PROJECTTITLE&gt; and &lt;$fullname&gt; tags get replaced with metadata information you can set when compiling. The other text should be edited here with the details for your paper.</Notes>
         </Document>
+        <Document ID="D60898A2-F683-4FC4-81C7-1BE6B0C6ED9C">
+            <Title>Figure 1: Name here</Title>
+            <Text>Title: [Title name here]
+Target Research Question: [Research question here]
+Plot Type: [Plot type here]
+[insert figure]
+Narrative Interpretation:  [Write 1–2 paragraphs interpreting the. Discuss distribution shape, skewness, spread, or notable outlier peaks observed in the chart.] </Text>
+        </Document>
         <Document ID="308E0111-D80D-4BD8-BA77-06C7114E25D5">
             <Title>Data Quality Anomalies Matrix</Title>
             <Text>[Inset the Quality Anomalies Matrix, identified here]</Text>
-        </Document>
-        <Document ID="059ADCAD-9DB3-40F4-9685-9E4FC789D620">
-            <Title>Title Page</Title>
-            <Text>Quantified Analysis of Past Major League Baseball Data: An Exploration of Data in Python
-(Milestone 2)
- 
-Tristen Garcia
-Benjamin Hays
-Sacramento City College
-CISD/CISP 357: Introduction to Data Science
-Dr. Marc Fisher 
-[Date TBD]
-
-</Text>
         </Document>
         <Document ID="7432931F-6F39-463F-A4B7-A9C9C511BF7C">
             <Title>Measures</Title>

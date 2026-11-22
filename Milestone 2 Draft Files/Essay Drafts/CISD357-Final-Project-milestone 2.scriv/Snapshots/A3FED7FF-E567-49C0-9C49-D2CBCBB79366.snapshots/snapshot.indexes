@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SnapshotIndexes Version="1.0" BinderUUID="A3FED7FF-E567-49C0-9C49-D2CBCBB79366">
+    <Snapshot Date="2026-11-08 16:03:19 -0800">
+        <Title>Untitled Snapshot</Title>
+        <Text>The team of Tristen Garcia and Benjamin Hays elected  to investigate MLB historical statistics in Python to identify trends due to the economic impact of MLB on the United States economy. Milestone tasks were separated, as identified on Table 1, below:
+</Text>
+    </Snapshot>
     <Snapshot Date="2026-11-08 16:02:12 -0800">
         <Title>Untitled Snapshot</Title>
         <Text>The team of Tristen Garcia and Benjamin Hays to investigate MLB historical statistics in Python to identify trends because of the economic impact of MLB to the United States economy. Tasks for this milestone were separated between the members, and is identified in detail on Table 1, below:
@@ -44,9 +49,16 @@ Note. The following individuals can be contacted for information and consulting 
 ·      Professor Fishman
 </Text>
     </Snapshot>
-    <Snapshot Date="2026-11-08 16:03:19 -0800">
+    <Snapshot Date="2026-11-21 16:25:06 -0800">
         <Title>Untitled Snapshot</Title>
-        <Text>The team of Tristen Garcia and Benjamin Hays elected  to investigate MLB historical statistics in Python to identify trends due to the economic impact of MLB on the United States economy. Milestone tasks were separated, as identified on Table 1, below:
-</Text>
+        <Text>The team of Tristen Garcia and Benjamin Hays elected  to investigate MLB historical statistics in Python to identify trends due to the economic impact of MLB on the United States economy. Milestone tasks were agreed upon by each team member, as identified on Table 1, below:
+[insert table 1 here]
+Each team member was responsible for completing the tasks, but could seek assistance based on the agreement established in Milestone 1. </Text>
+    </Snapshot>
+    <Snapshot Date="2026-11-21 17:01:09 -0800">
+        <Title>Untitled Snapshot</Title>
+        <Text>Tristen Garcia and Benjamin Hays investigated MLB historical statistics in Python to identify correlations due because of the economic impact of MLB on the United States economy. Milestone tasks were agreed upon by each team member, as identified on Table 1, below:
+[insert table 1 here]
+Each team member was responsible for completing the tasks, but could seek assistance based on the agreement established in Milestone 1. </Text>
     </Snapshot>
 </SnapshotIndexes>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="230D4C0A-4139-46B5-9F1C-5384BD0F03A7">
+    <Snapshot Date="2026-11-21 17:03:32 -0800">
+        <Title>Untitled Snapshot</Title>
+        <Text>One the data was cleaned, Python code was develop to analyze the data. Basic data analysis was performed to confirm the target questions could be answered with the data acquired, and for data to be grouped allowing the analysis process to be developed as restrictions are known. 
+Statistics were generate on the cleaned .CSV file for the attributes, counts, mean, median, standard deviation, min/max, and 25th/75th percentile of the valid .CSV file, as relevant based on the data information. This was performed by using a script developed by Tristen Garcia, called “summarystats.py”, with the following table completed by Tristen Garcia.
+[insert table 4.1]
+
+The next step is to group the data. This grouping was performed to categorize the data and to identify cutoffs or incomplete data to help plan how analysts should proceed. This data grouping script was developed by Benjamin Hays called “grouping.py”, and the table below completed by Benjamin Hays.
+
+[insert tables 4.2 here]</Text>
+    </Snapshot>
+    <Snapshot Date="2026-11-21 16:29:07 -0800">
+        <Title>Untitled Snapshot</Title>
+        <Text>One the data was clean as discussed in section 3, the data was then analyzed using the appropriate Python tools. Basic data analysis was performed to confirm the code is aligned, the target questions could be answered with the data acquired, and the grouping of data. 
+Statistics were generate on the cleaned .CSV file for the attributes, counts, mean, median, standard deviation, min/max, and 25th/75th percentile of the valid .CSV file. This was performed by using a script developed by Tristen Garcia, called summarystats.py, with the table completed by Tristen Garcia.
+[insert table 4.1]
+
+Once general statistics were performed, then data was grouped. This grouping was performed to categorize the data and to identify cutoffs or incomplete data. This data was developed by Benjamin Hays in a program he wrote called grouping.py, with the table completed by Benjamin Hays,.
+
+[insert tables 4.2 here]</Text>
+    </Snapshot>
+    <Snapshot Date="2026-11-21 16:29:47 -0800">
+        <Title>Untitled Snapshot</Title>
+        <Text>One the data was clean as discussed in section 3, the data was then analyzed using the appropriate Python tools. Basic data analysis was performed to confirm the code is aligned, the target questions could be answered with the data acquired, and the grouping of data. 
+Statistics were generate on the cleaned .CSV file for the attributes, counts, mean, median, standard deviation, min/max, and 25th/75th percentile of the valid .CSV file. This was performed by using a script developed by Tristen Garcia, called summarystats.py, with the table completed by Tristen Garcia.
+[insert table 4.1]
+
+Once general statistics were performed, then data was grouped. This grouping was performed to categorize the data and to identify cutoffs or incomplete data. This data was developed by Benjamin Hays in a program he wrote called grouping.py, with the table completed by Benjamin Hays,.
+
+[insert tables 4.2 here]</Text>
+    </Snapshot>
+</SnapshotIndexes>

@@ -23,8 +23,8 @@
 	</array>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {181.5, 892}}</string>
-		<string>{{182.5, 0}, {1329.5, 892}}</string>
+		<string>{{0, 0}, {175, 696}}</string>
+		<string>{{176, 0}, {983, 696}}</string>
 	</array>
 	<key>binderState</key>
 	<array>
@@ -287,20 +287,30 @@
 	</data>
 	<key>editorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {1329.5, 431}}</string>
-		<string>{{0, 432}, {1329.5, 430}}</string>
+		<string>{{0, 0}, {983, 431}}</string>
+		<string>{{0, 432}, {983, 234}}</string>
 	</array>
 	<key>editorSplitType</key>
 	<integer>0</integer>
+	<key>fullScreenBackgroundFade</key>
+	<real>1</real>
+	<key>fullScreenHorizontalPaperPosition</key>
+	<integer>2</integer>
 	<key>fullScreenInspectorMode</key>
 	<integer>0</integer>
 	<key>fullScreenInspectorVisible</key>
 	<false/>
+	<key>fullScreenPaperHeight</key>
+	<integer>-1</integer>
+	<key>fullScreenPaperWidth</key>
+	<integer>850</integer>
 	<key>fullScreenTextEditorSettings</key>
 	<dict>
 		<key>textScaleFactor</key>
 		<real>1.25</real>
 	</dict>
+	<key>fullScreenVerticalPaperPosition</key>
+	<integer>2</integer>
 	<key>grammarSpellChecking</key>
 	<false/>
 	<key>inspectorCustomPaneIsCollapsed</key>
@@ -379,7 +389,7 @@
 		<real>573.5</real>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{-355, 0}, {1329, 370}}</string>
+	<string>{{0, 0}, {604, 290}}</string>
 	<key>mainDocumentEditor.selectedRanges</key>
 	<string>{0, 0}</string>
 	<key>mainDocumentEditor.textEditorState</key>
@@ -400,7 +410,7 @@
 		<key>widths</key>
 		<dict>
 			<key>TITLE</key>
-			<real>200</real>
+			<real>143</real>
 		</dict>
 	</dict>
 	<key>showInvisibles</key>
@@ -446,7 +456,7 @@
 	<key>supportingDocumentEditor.interCardSpacing</key>
 	<real>30</real>
 	<key>supportingDocumentEditor.scrollRect</key>
-	<string>{{-346, 85.5}, {1312, 371}}</string>
+	<string>{{-173, 29}, {966, 371}}</string>
 	<key>supportingDocumentEditor.selectedItemIDs</key>
 	<array/>
 	<key>supportingDocumentEditor.selectedItemUUIDs</key>

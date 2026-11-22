@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SnapshotIndexes Version="1.0" BinderUUID="B78095E0-C090-4643-B128-37E56514F286">
+    <Snapshot Date="2026-11-21 17:05:01 -0800">
+        <Title>Untitled Snapshot</Title>
+        <Text>Using the data, three graphs were developed to align with assignment requirements. Figure 1 is a scatter diagram showing salary to the player’s RBI, with the design developed by Benjamin Hays in the program Tableau, and coded by Tristen Garcia. Figure 2 is a bar chart showing the RBIs on the Y axis with the player’s birth months on the X axis. This was designed by Benjamin Hays in the program Tableau, and coded by Tristen Garcia. Figure 3 is [insert information here], designed and coded by Tristen Garcia. Details about the graphs and their meaning can be found in the file “report.md”, written and coded by Benjamin Hays with verbal assistance and revision by Tristen Garcia. </Text>
+    </Snapshot>
+    <Snapshot Date="2026-11-21 16:33:07 -0800">
+        <Title>Untitled Snapshot</Title>
+        <Text>Using the data, three graphs were developed to meet the assignment requirements. Figure 1 is a scatter diagram showing a connection between salary and RBI, with the design developed by Benjamin Hays in the program Tableau, and coded into Python by Tristen Garcia. Figure 2 is a bar chart showing the RBIs on the Y axis with the player’s birth months on the X axis. This was designed by Benjamin Hays in the program Tableau, and coded into Python by Tristen Garcia. Figure 3 is [insert information here], designed and coded by Tristen Garcia. Details about the graphs and their meaning can be found in the file report.md, written and coded by Benjamin Hays with verbal interoperation by Tristen Garcia. </Text>
+    </Snapshot>
     <Snapshot Date="2026-11-06 16:25:23 -0800">
         <Title>Untitled Snapshot</Title>
         <Text>The team proposes the following steps to extract and analyze the data for completeness. The appropriate expected data will be identified for each column, such as date written in month/date/year format, string, or integer. Multiple .cvs files or databases will be merged using a left union, with the “date” being the primary key connecting the files together, and any missing data will be replaced with the appropriate symbol or word for “missing data”. The first 100 rows of the merged document will be extracted using the relevant Python code. From that 100 rows, multiple checks will be performed on the data, such as confirming all rows meet the expected data format, data in missing rows automatically converted, and related actions performed.

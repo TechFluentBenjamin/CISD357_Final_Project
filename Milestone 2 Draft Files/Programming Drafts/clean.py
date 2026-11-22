@@ -92,7 +92,7 @@ def clean_csv_headers(file_path, columns_to_drop=None, drop_if_column_blank=None
 def calculate_inflationary_salary(file_path):
     # reads the clean salary file to perform calculations.
     try:
-        # Load the cleaned file (e.g., salary_clean.csv)
+        # Load the cleaned file
         df = pd.read_csv(file_path)
 
         target_year_col = "yearid"
@@ -132,6 +132,10 @@ def calculate_inflationary_salary(file_path):
         # uses integers in 64. I don't want zeros!
         df[target_salary_col] = df[target_salary_col].astype("Int64")
         df["salary_2026"] = df["salary_2026"].astype("Int64")
+
+        #adds a comma and dollar sign to currency for readabliltity. 
+        df["salary_2026"] = df["salary_2026"].apply( lambda x: f"${int(x):,}" if pd.notna(x) else "" )
+
 
         # Drop the temporary multiplier column
         df = df.drop(columns=["multiplier"])
