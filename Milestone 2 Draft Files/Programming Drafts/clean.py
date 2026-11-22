@@ -32,7 +32,7 @@ def remove_incomplete_rows(df):
 def clean_csv_headers(file_path, columns_to_drop=None, drop_if_column_blank=None):
     #    Converts headers to lowercase/underscores, removes specific columns, handles conditional row removal, and drops rows with missing values.
     try:
-        # 1. Load the original CSV file into a pandas DataFrame
+        #Load the original CSV file into a pandas DataFrame
         df = pd.read_csv(file_path)
     except FileNotFoundError:
         print(f"Error: The file '{file_path}' was not found.\n")

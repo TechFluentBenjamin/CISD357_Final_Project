@@ -2,6 +2,7 @@
 # Code by Tristen Garcia
 # Uploaded by Benjamin Hays
 # Direct copy from sent script from Discord 
+# Edited comments for readabilty
 # November 20, 2026
 
 import pandas as pd
