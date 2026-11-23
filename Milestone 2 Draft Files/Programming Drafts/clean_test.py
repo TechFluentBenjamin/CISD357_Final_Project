@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 from clean import normalize_col_name, remove_incomplete_rows
 
+
 class TestCleaningLogic(unittest.TestCase):
 
     def test_normalize_col_name(self):
@@ -17,39 +18,38 @@ class TestCleaningLogic(unittest.TestCase):
         self.assertEqual(normalize_col_name("team_id"), "team_id")
 
     def test_remove_incomplete_rows_with_nan(self):
-        #Are NaN rows removed? 
-        data = {'name': ['Player A', 'Player B', 'Player C'],
-                'score': [10, np.nan, 30]}
+        # Are NaN rows removed?
+        data = {"name": ["Player A", "Player B", "Player C"], "score": [10, np.nan, 30]}
         df = pd.DataFrame(data)
         cleaned_df = remove_incomplete_rows(df)
-        # Should only have 2 rows left (the one with NaN should be gone)
+        # Should only have 2 rows left. NaN gone?
         self.assertEqual(len(cleaned_df), 2)
 
     def test_remove_incomplete_rows_no_nan(self):
         # Are no rows removed if data is complete?
-        data = {'name': ['Player A', 'Player B'],
-                'score': [10, 20]}
+        data = {"name": ["Player A", "Player B"], "score": [10, 20]}
         df = pd.DataFrame(data)
         cleaned_df = remove_incomplete_rows(df)
         self.assertEqual(len(cleaned_df), 2)
 
     def test_regex_whitespace_to_na(self):
         # If there's whitespace, is it converted to NaN, simulating df = df.replace(r"^\s*$", pd.NA, regex=True
-        data = {'name': ['Player A', '   ', 'Player C']}
+        data = {"name": ["Player A", "   ", "Player C"]}
         df = pd.DataFrame(data)
-        # Apply the exact logic from your script
+        # Logic!
         df = df.replace(r"^\s*$", pd.NA, regex=True)
-        
+
         self.assertTrue(pd.isna(df.iloc[1, 0]))
-        self.assertEqual(df.iloc[0, 0], 'Player A')
+        self.assertEqual(df.iloc[0, 0], "Player A")
 
     def test_column_normalization_loop(self):
-        #Is the header logic good? 
+        # Headers
         raw_headers = ["Name", "  Birth Date  ", "TEAM_ID"]
         cleaned_headers = [normalize_col_name(col) for col in raw_headers]
-        
+
         expected_headers = ["name", "birth_date", "team_id"]
         self.assertEqual(cleaned_headers, expected_headers)
+
 
 if __name__ == "__main__":
     unittest.main()
