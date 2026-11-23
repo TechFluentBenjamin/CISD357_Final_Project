@@ -32,7 +32,7 @@ def remove_incomplete_rows(df):
 def clean_csv_headers(file_path, columns_to_drop=None, drop_if_column_blank=None):
     #    Converts headers to lowercase/underscores, removes specific columns, handles conditional row removal, and drops rows with missing values.
     try:
-        #Load the original CSV file into a pandas DataFrame
+        # Load the original CSV file into a pandas DataFrame
         df = pd.read_csv(file_path)
     except FileNotFoundError:
         print(f"Error: The file '{file_path}' was not found.\n")
@@ -133,9 +133,10 @@ def calculate_inflationary_salary(file_path):
         df[target_salary_col] = df[target_salary_col].astype("Int64")
         df["salary_2026"] = df["salary_2026"].astype("Int64")
 
-        #adds a comma and dollar sign to currency for readabliltity. 
-        df["salary_2026"] = df["salary_2026"].apply( lambda x: f"${int(x):,}" if pd.notna(x) else "" )
-
+        # adds a comma and dollar sign to currency for readabliltity.
+        df["salary_2026"] = df["salary_2026"].apply(
+            lambda x: f"${int(x):,}" if pd.notna(x) else ""
+        )
 
         # Drop the temporary multiplier column
         df = df.drop(columns=["multiplier"])
@@ -151,7 +152,7 @@ def calculate_inflationary_salary(file_path):
 
 
 if __name__ == "__main__":
-    # Dictionary format! Allows easy editing on what to drop and not drop.
+    # Nested dictionary format! Allows easy editing on what to drop and not drop.
     file_configs = {
         "batting.csv": {
             "drop": [
@@ -205,6 +206,8 @@ if __name__ == "__main__":
     print("Starting CSV sanitization and column removal...\n")
 
     all_files = ["people.csv", "salary.csv", "batting.csv"]
+
+    # Processing loop
 
     for file in all_files:
         print(f"Processing '{file}'...")
