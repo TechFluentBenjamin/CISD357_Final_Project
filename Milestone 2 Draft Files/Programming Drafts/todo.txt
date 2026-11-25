@@ -1,12 +1,12 @@
 Benjamin - Edit report.md
 Tristen - complete Table 2-1 - Raw Dataset OverView.docx 
 Tristen -  Table 2-2 - Data Quality Anomalies Matrix.docx 
-Tristen - Table 4-1 - Numerical Summary Statistics Table.docx
-Tristen - complete summarystats.py 
+Benjamin - Table 4-1 - Numerical Summary Statistics Table.docx
+Benjamin - complete summarystats.py 
 Tristen - complete charts.py
 [Pending Tristen] Benjamin - review and edit Table 2-1 - Raw Dataset OverView.docx 
 [Pending Tristen] Benjamin - review and edit Table 2-2 - Data Quality Anomalies Matrix.docx
-[Pending Tristen] Benajmin - review and edit Table 4-1 - Numerical Summary Statistics Table.docx
+Tristen - review and edit Table 4-1 - Numerical Summary Statistics Table.docx
 Tristen - review and edit Table 3-1 - Programmatic Cleaning Pipeline Summary - Ready for Review.docx
 Tristen - review and edit Table 4-2 -Grouped Metrics & Categorical Breakdowns - Ready for Review.docx
 Tristen - review and edit Table 6 Progression & Research Question Alignment - Ready for Review.docx

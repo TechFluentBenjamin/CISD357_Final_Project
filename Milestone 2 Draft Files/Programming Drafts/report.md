@@ -20,10 +20,11 @@ The authors investigated if the month the retired player was born aligns with th
 
 The X axis had the birth month, and the Y axis had the total RBIs of all players who were born within that month. The lowest RBI month was May, with a total RBI was about 135,000. The highest RBI was October, with a total RBI of about 172,000. The difference between low and highs is about 25%. Per the decided cutoff as discussed in Milestone 1, this exceeds the cutoff showing a correlation between the two variables. Other factors may influence this, including the average birth month of the global population, or related factors. Unlike the first cart, p-values and r-squared was not calculated.
 
-## TBD
+## PLayer's Salary from 1984 to 2024 in 2026 Dollars
 
-The authors decided to explore TO BE DETERMINED. 
+The authors decided to explore the yearly salary of all players from 1984 - 2024. This chart explains how much the average player makes. The X axis contains the year, and the Y axis contains the yearly average sum of all player's saleries, adjusted to 2026 dollars. 
 
-![Chart 3: TBD](chart3.png)
-*Figure 3. TBD* 
+![Chart 3: Player Average Salary from 1984 - 2024](chart3.png)
+*Figure 3. Player Average Salary from 1984 - 2024* 
 
+This shows the baseball players are making more money each year, on average. In theory, this shows how good they are as players and could have a connection to how many RBIs the average player hits. Like the second chart, p-values and r-squared was not calculated. 
